@@ -8,5 +8,5 @@ License: Open
 Text Domain: monibasu
 */
 
-@import url("stylesheets/normalize.css");
-@import url("stylesheets/skeleton.css");
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
