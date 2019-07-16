@@ -59,6 +59,7 @@ function blank_widgets_init(){
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
+));
 
   //Sidebar Widget
   register_sidebar( array(
