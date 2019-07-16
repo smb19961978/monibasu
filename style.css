@@ -7,3 +7,6 @@ Version: 0.1
 License: Open
 Text Domain: monibasu
 */
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
