@@ -76,6 +76,15 @@ function blank_widgets_init(){
   add_action('widgets_init','blank_widgets_init');
 
 
-  ?>
+function example_theme_scripts(){
+  wp_enqueue_style('skeleton', get_template_directory_uri() . '/css/skeleton.css');
+  wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css');
+
+  //main CSS get_included_files
+  wp_enqueue_style('main-styles', get_stylesheet_uri());
+
+}
+
+add_action('wp_enqueue_scripts','example_theme_scripts');
 
 ?>
