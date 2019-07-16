@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<?php
-// Silence is golden.
-?>
-=======
 <?php get_header(); ?>
 
 <div class="container">
@@ -24,4 +19,4 @@
 </div>
 </div>
 <?php get_footer(); ?>
->>>>>>> f09fa02678cb943176f92f9a81e47b468ef1d53d
+
