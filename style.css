@@ -22,14 +22,22 @@ body {
 h1, h2 {
   font-family: 'Anton', sans-serif;
 }
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+}
 
 /* **** Post Pages ***** */
 .post-content-text {
   padding-top: 30px;
-  font-family:'Fira Sans',sans-serif;
-  font-weight: 200;
 }
-/* Side Bar */
+p.post-date, p.post-author {
+  padding-bottom:5px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #86171D;
+}
+/* *** Side Bar ****  */
 .sidebar {
   padding-top: 90px;
   font-size: 15px;
@@ -49,8 +57,17 @@ label.screen-reader-text {
   text-decoration: none;
 }
 
-
 /* **** Search Button ***** */
 input#searchsubmit {
   font-size: 10px;
+}
+
+
+/* **** Footer ***** */
+footer {
+  background-image: url("footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 170px;
 }
