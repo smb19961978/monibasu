@@ -28,22 +28,22 @@ p {
 }
 
 /* *** Header **** */
-header a {
-  text-decoration: none;
-  font-size: 10px;
-  padding: 10px;
-  color:white;
-}
-header li {
-  display: inline;
-}
 
 header .row {
   display:flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
+ul#menu-header-menu li {
+  display: inline;
+}
+ul#menu-header-menu a{
+  text-decoration: none;
+  font-size: 10px;
+  padding: 10px;
+  color:black;
+}
 
 
 
