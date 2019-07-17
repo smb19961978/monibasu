@@ -19,6 +19,27 @@ body {
   padding: 20px;
 }
 
-h2 {
+h1, h2 {
   font-family: 'Anton', sans-serif;
+}
+
+/* **** Post Pages ***** */
+
+/* Side Bar */
+.sidebar {
+  padding-top: 90px;
+  font-size: 15px;
+}
+/* **** Hide 'Pages' ***** */
+h3.widget-title {
+    display: none;
+}
+/* **** Hide 'Search' ***** */
+label.screen-reader-text {
+    display: none;
+}
+
+/* **** Search Button ***** */
+input#searchsubmit {
+  font-size: 10px;
 }
