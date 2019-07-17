@@ -26,6 +26,20 @@ p {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 200;
 }
+/* **** Post Attributes **** */
+.post-title a {
+  text-decoration: none;
+  color: #86171D;
+}
+
+/* *** Writing Template Page * **/
+h3.post-title{
+  margin-bottom: 3px;
+}
+/* Excerpt Width */
+.nine.columns.single-content p {
+  width: 300px;
+}
 
 /* **** Post Pages ***** */
 .post-content-text {

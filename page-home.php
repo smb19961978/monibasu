@@ -36,15 +36,15 @@
       foreach ( $lastposts as $post ) :
         setup_postdata( $post ); ?>
     <div class="one-third column posts">
-      <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
       <?php the_post_thumbnail('thumbnail'); ?>
+      <h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
     </div>  <!--End one-half-column div -->
 
     <?php endforeach;?>
     <?php wp_reset_postdata(); ?>
 
 
-</div>
+  </div>
 
 
 

@@ -3,20 +3,24 @@
 <div class="container">
   <div class="row">
     <div class="nine columns single-content">
-      <?php
-      if(have_posts()){
-        while(have_posts()){
-          the_post();?>
-            <h2 class="post-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-            <?php the_post_thumbnail('medium'); ?>
-            <?php the_excerpt(); ?>
-            <p class="post-date"><?php echo "Published: " . get_the_date();?></p>
-            <p class="post-author"><?php echo "Written by: " . get_the_author();?></p>
+        <?php
+          global $post;
+          $args = array( 'posts_per_page' => 3 );
+          $lastposts = get_posts( $args );
+          foreach ( $lastposts as $post ) :
+            setup_postdata( $post ); ?>
+
+          <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <p class="post-date"><?php echo "Published " . get_the_date(); ?></p>
+          <?php the_post_thumbnail('medium'); ?>
+          <p class="excerpt"><?php the_excerpt(); ?></p>
+
+        <?php endforeach;?>
+        <?php wp_reset_postdata(); ?>
 
 
-      <?php  }//ends while loop
-      }//end if statement
-    ?>
+      </div>
+
     </div>
 
     <div class="three columns">
