@@ -18,14 +18,14 @@
         <?php endforeach;?>
         <?php wp_reset_postdata(); ?>
 
-
-      </div>
-
     </div>
+
+
 
     <div class="three columns">
       <?php get_sidebar(); ?>
     </div>
+    
   </div>
 </div>
 <?php get_footer(); ?>
