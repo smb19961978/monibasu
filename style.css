@@ -37,6 +37,10 @@ p.post-date, p.post-author {
   font-weight: 300;
   color: #86171D;
 }
+
+.post-feature img {
+  margin: 10px 0;
+}
 /* *** Side Bar ****  */
 .sidebar {
   padding-top: 90px;
