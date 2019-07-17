@@ -21,7 +21,7 @@
       <div class="row">
         <!--Logo (May need Widget Area)-->
         <div class="three columns">
-            <h2>insert logo</h2>
+            <?php dynamic_sidebar('header-logo'); ?>
         </div>
 
         <!--Header Menu-->
