@@ -49,7 +49,10 @@ ul#menu-header-menu a{
     flex-direction: row-reverse;
 }
 
-
+/* **** Home Page **** */
+.row.book-home {
+  background-color:#ebe7e5;
+}
 
 
 /* **** Post Attributes **** */

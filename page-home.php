@@ -21,10 +21,13 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="twelve columns">
-      <h3>CHAPLAIN TURNER'S WAR</h3>
+  <div class="row book-home">
+    <div class="one-third column home-page">
+      <h3>CHAPLAIN<br>TURNER'S <br>WAR</h3>
       <button class="button">Purchase</button>
+    </div>
+    <div class="two-thirds column home-page">
+      <?php dynamic_sidebar('book-image-home');?>
     </div>
   </div>
 

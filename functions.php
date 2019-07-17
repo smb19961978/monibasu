@@ -61,6 +61,17 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
 ));
 
+//Book Image Home Page
+register_sidebar( array(
+  'name'          =>  ('Book Image Home'),
+  'id'            =>  'book-image-home',
+  'description'   =>  'Widget area for book image section on Home Page',
+  'before_widget' =>  '<div class="book-image-home">',
+  'after_widget'  =>  '</div>',
+  'before_title'  =>  '<h3 class="widget-title">',
+  'after_title'   =>  '</h3>'
+));
+
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
