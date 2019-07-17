@@ -30,7 +30,12 @@ p {
 /* *** Header **** */
 header a {
   text-decoration: none;
-  color:black;
+  font-size: 10px;
+  padding: 10px;
+  color:white;
+}
+header li {
+  display: inline;
 }
 
 header .row {
@@ -38,20 +43,9 @@ header .row {
   justify-content: center;
   align-items: center;
 }
-.menu-header-menu-container {
-  text-align: center;
-}
-ul#menu-header-menu li {
-  display: inline;
-}
 
-ul#menu-header-menu a {
-  text-decoration: none;
-  font-size: 16px;
-  padding: 8px 20px;
-  background: white;
-  margin: 0 8px;
-}
+
+
 
 /* **** Post Attributes **** */
 .post-title a {
