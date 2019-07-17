@@ -26,15 +26,45 @@ p {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 200;
 }
+
+/* *** Header **** */
+header a {
+  text-decoration: none;
+  color:black;
+}
+
+header .row {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-header-menu-container {
+  text-align: center;
+}
+ul#menu-header-menu li {
+  display: inline;
+}
+
+ul#menu-header-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 20px;
+  background: white;
+  margin: 0 8px;
+}
+
 /* **** Post Attributes **** */
 .post-title a {
   text-decoration: none;
-  color: #86171D;
 }
 
 /* *** Writing Template Page * **/
+h3.post-title a {
+  color: #86171D;
+}
+
 h3.post-title{
-  margin-bottom: 3px;
+  margin: 20px 0px 5px 0px
 }
 /* Excerpt Width */
 .nine.columns.single-content p {
@@ -43,7 +73,7 @@ h3.post-title{
 
 /* **** Post Pages ***** */
 .post-content-text {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 p.post-date, p.post-author {
   padding-bottom:5px;
@@ -53,11 +83,10 @@ p.post-date, p.post-author {
 }
 
 .post-feature img {
-  margin: 10px 0;
+  margin: 70px 0 0 0;
 }
 /* *** Side Bar ****  */
 .sidebar {
-  padding-top: 90px;
   font-size: 15px;
 }
 /* **** Hide 'Pages' ***** */
