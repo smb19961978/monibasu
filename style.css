@@ -10,3 +10,15 @@ Text Domain: monibasu
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
+
+body {
+  font-family:'Fira Sans', sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+}

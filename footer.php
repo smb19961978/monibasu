@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
-      <h2>Social Media Icons Plugin</h2>
-      <h2>Moni Basu Placeholder</h2>
+      <p>Social Media Icons Plugin</p>
+      <p>Moni Basu Placeholder</p>
     </div>
 
 </footer>

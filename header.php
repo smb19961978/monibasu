@@ -8,6 +8,10 @@
     <!--link to css file-->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>" >
 
+    <!--link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fira+Sans:200,400&display=swap" rel="stylesheet">
+
+
     <?php wp_head(); ?>
 </head>
 
@@ -15,10 +19,12 @@
   <header>
     <div class= "container">
       <div class="row">
+        <!--Logo (May need Widget Area)-->
         <div class="three columns">
-            <h1><a href="<?php echo home_url('/');?>"><?php bloginfo('name'); ?></a></h1>
+            <h2>insert logo</h2>
         </div>
 
+        <!--Header Menu-->
         <div class="nine columns">
           <?php wp_nav_menu(array(
             'theme_location' => 'header-menu',
