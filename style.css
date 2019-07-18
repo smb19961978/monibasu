@@ -124,12 +124,14 @@ h4.post-title a:hover {
 .post-title-template a {
   text-decoration: none;
   color: #86171D;
-  font-size: 26px
+  font-size: 26px;
   font-weight: 400;
 }
 .post-title-template a:hover {
   color:black;
   background-color: #86171D;
+  position: relative;
+  bottom: 1%;
 }
 h3.post-title-template{
   margin: 20px 0px 5px 0px;
@@ -137,7 +139,10 @@ h3.post-title-template{
 
 p.post-date-template {
   color: #86171D;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+}
+img.attachment-medium.size-medium.wp-post-image {
+  padding-top: 39px;
 }
 /* Excerpt Width */
 .nine.columns.single-content p {
