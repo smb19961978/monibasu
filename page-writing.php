@@ -6,7 +6,7 @@
 
   <div class="row">
 
-    <div class="nine columns single-content">
+    <div class="ten columns single-content">
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
@@ -26,7 +26,7 @@
 
 
 
-    <div class="three columns">
+    <div class="one column">
       <?php get_sidebar(); ?>
     </div>
 
