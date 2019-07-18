@@ -40,16 +40,23 @@ header .row {
   justify-content: left;
   align-items: center;
 }
+/* header banner photo */
 img.image.wp-image-74.attachment-full.size-full {
   position: relative;
     top: 0;
     left: 0;
     width: 1200px;
 }
+/* Menu position behind image */
 .row.menu {
     position: absolute;
     top: 0;
     width: 100%;
+}
+/* Logo padding */
+.hero-image-widget {
+  padding: 10px;
+  border-bottom: 3px solid #86171D;
 }
 ul#menu-header-menu li {
   display: inline;
@@ -58,8 +65,11 @@ ul#menu-header-menu li {
 ul#menu-header-menu a{
   text-decoration: none;
   font-size: 15px;
-  padding: 10px;
-  color:black;
+  margin: 0 10px;
+  color:white;
+}
+ul#menu-header-menu a:hover {
+  background-color: #86171D;
 }
 .menu-header-menu-container {
     display: flex;
