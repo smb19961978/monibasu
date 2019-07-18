@@ -51,16 +51,20 @@ img.image.wp-image-74.attachment-full.size-full {
     top: 0;
     width: 100%;
 }
+ul#menu-header-menu li {
+  display: inline;
+}
 
 ul#menu-header-menu a{
   text-decoration: none;
   font-size: 15px;
   padding: 10px;
   color:black;
+  background-color: white;
 }
 .menu-header-menu-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
 }
 
 /* **** Home Page **** */
