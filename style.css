@@ -60,11 +60,10 @@ ul#menu-header-menu a{
   font-size: 15px;
   padding: 10px;
   color:black;
-  background-color: white;
 }
 .menu-header-menu-container {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 /* **** Home Page **** */
@@ -82,12 +81,11 @@ ul#menu-header-menu a{
 .one-third.column.posts {
     display: inline-grid;
     justify-content: center;
-    justify-items: center;
     padding-top: 50px;
 }
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
-    width: 200px;
-    height: auto
+    width: auto;
+    height: 200px;
 }
 
 h4.post-title {
