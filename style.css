@@ -16,7 +16,12 @@ body {
 }
 
 .container {
-  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+.column,
+.columns {
+  margin-left: 0%;
 }
 
 h1, h2 {
@@ -52,7 +57,7 @@ ul#menu-header-menu a{
 
 /* **** Home Page **** */
 
-.twelve.columns.row.book-home {
+.row.book-home {
     background-color: #ebe7e5;
     display: flex;
     justify-content: center;
@@ -60,6 +65,21 @@ ul#menu-header-menu a{
 
 .purchase {
   display: flex;
+}
+
+.one-third.column.posts {
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    width: 200px;
+    height: auto
+}
+
+h4.post-title {
+  text-align: center;
 }
 /* **** Post Attributes **** */
 .post-title a {

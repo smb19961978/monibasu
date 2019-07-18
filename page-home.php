@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div class="twelve columns row book-home">
+  <div class="row book-home">
 
       <h3>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h3>
 
