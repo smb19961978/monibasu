@@ -108,14 +108,15 @@ h4.post-title {
 .post-title-template a {
   text-decoration: none;
   color: #86171D;
-  font-weight: bold;
+  font-size: 26px
+  font-weight: 400;
 }
 
 h3.post-title-template{
   margin: 20px 0px 5px 0px;
 }
 
-.post-date-template p{
+p.post-date-template {
   color: #86171D;
   padding-bottom: 15px;
 }
