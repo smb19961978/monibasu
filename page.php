@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container">
+<div class="container templates">
   <div class="row">
     <div class="nine columns single-content">
       <?php

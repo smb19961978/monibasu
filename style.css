@@ -102,7 +102,7 @@ h4.post-title {
 /* *** Writing Template Page * **/
 .container.templates {
   max-width: 1000px;
-  
+  padding-bottom: 10px;
 }
 h3.post-title a {
   color: #86171D;
@@ -129,7 +129,7 @@ p.post-date, p.post-author {
 }
 
 .post-feature img {
-  margin: 70px 0 0 0;
+  margin: 50px 0 0 0;
 }
 /* *** Side Bar ****  */
 .sidebar {
