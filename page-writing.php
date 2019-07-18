@@ -1,12 +1,12 @@
 <?php /*Template Name: Writing Page Template*/ ?>
 <?php get_header(); ?>
-<div class="container">
+<div class="container templates">
 
     <h2><a href="<?php echo home_url('/');?>"><?php bloginfo('name'); ?></a></h2>
 
   <div class="row">
 
-    <div class="ten columns single-content">
+    <div class="nine columns single-content">
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
@@ -26,7 +26,7 @@
 
 
 
-    <div class="one column">
+    <div class="two columns">
       <?php get_sidebar(); ?>
     </div>
 
