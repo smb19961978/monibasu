@@ -105,12 +105,17 @@ h4.post-title {
   max-width: 1000px;
   padding: 65px 0 55px 0;
 }
-h3.post-title a {
+h3.post-title-template a {
   color: #86171D;
+  font-weight: bold;
 }
 
-h3.post-title{
-  margin: 20px 0px 5px 0px
+h3.post-title-template{
+  margin: 20px 0px 5px 0px;
+}
+
+p.post-date-template{
+  padding-bottom: 15px;
 }
 /* Excerpt Width */
 .nine.columns.single-content p {
@@ -118,14 +123,11 @@ h3.post-title{
 }
 
 /* **** Post Pages ***** */
-.post-content-text {
-  padding-top: 20px;
-  width: 300px;
-}
+
 p.post-date, p.post-author {
   padding-bottom:5px;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 400;
   color: #86171D;
 }
 
