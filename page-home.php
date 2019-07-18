@@ -38,7 +38,7 @@
       foreach ( $lastposts as $post ) :
         setup_postdata( $post ); ?>
     <div class="one-third column posts">
-      <?php the_post_thumbnail('thumbnail'); ?>
+      <?php the_post_thumbnail('medium'); ?>
       <h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
     </div>  <!--End one-half-column div -->
 

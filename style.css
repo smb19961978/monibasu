@@ -40,10 +40,18 @@ header .row {
   justify-content: left;
   align-items: center;
 }
-
-ul#menu-header-menu li {
-  display: inline;
+img.image.wp-image-21.attachment-full.size-full {
+  position: relative;
+    top: 0;
+    left: 0;
+    width: 1200px;
 }
+.row.menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 ul#menu-header-menu a{
   text-decoration: none;
   font-size: 15px;
@@ -69,8 +77,8 @@ ul#menu-header-menu a{
 
 .one-third.column.posts {
     display: inline-grid;
-    align-items: center;
     justify-content: center;
+    justify-items: center;
     padding-top: 50px;
 }
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
@@ -80,10 +88,13 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 
 h4.post-title {
   text-align: center;
+  padding-top: 5px;
 }
 /* **** Post Attributes **** */
 .post-title a {
   text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 /* *** Writing Template Page * **/

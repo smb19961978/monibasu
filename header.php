@@ -22,9 +22,10 @@
       <div class="row">
 
         <?php dynamic_sidebar('header-image'); ?>
+      </div>
 
 
-      <div class="row">
+      <div class="row menu">
         <!--Logo (May need Widget Area)-->
         <div class="three columns">
             <?php dynamic_sidebar('header-logo'); ?>
