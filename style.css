@@ -33,7 +33,9 @@ p {
 }
 
 /* *** Header **** */
-
+header {
+  padding-bottom: 30px;
+}
 
 header .row {
   display:flex;
@@ -46,7 +48,7 @@ img.image.wp-image-74.attachment-full.size-full {
   top: 0;
   left: 0;
   width: 1200px;
-  border-bottom: 3px solid #86171D;
+  border-bottom: 9px solid #86171D;
 }
 /* Menu position behind image */
 .row.menu {
@@ -64,7 +66,7 @@ ul#menu-header-menu li {
 
 ul#menu-header-menu a{
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 10px;
   padding: 2px 0;
   color:white;
@@ -105,10 +107,13 @@ h4.post-title {
   padding-top: 5px;
 }
 /* **** Post Attributes **** */
-.post-title a {
+h4.post-title a {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+h4.post-title a:hover {
+  background-color: #86171D;
 }
 
 /* *** Writing Template Page * **/
