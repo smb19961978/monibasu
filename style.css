@@ -51,12 +51,16 @@ ul#menu-header-menu a{
 }
 
 /* **** Home Page **** */
-.row.book-home {
-  background-color:#ebe7e5;
-  width: 100%;
+
+.twelve.columns.row.book-home {
+    background-color: #ebe7e5;
+    display: flex;
+    justify-content: center;
 }
 
-
+.purchase {
+  display: flex;
+}
 /* **** Post Attributes **** */
 .post-title a {
   text-decoration: none;

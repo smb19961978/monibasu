@@ -19,6 +19,9 @@
   <header >
     <div class= "container">
 
+      <div class="row">
+
+        <?php dynamic_sidebar('header-image'); ?>
 
 
       <div class="row">
