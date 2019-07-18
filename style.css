@@ -106,6 +106,7 @@ h4.post-title {
   padding: 65px 0 55px 0;
 }
 h3.post-title-template a {
+  text-decoration: none;
   color: #86171D;
   font-weight: bold;
 }
@@ -115,6 +116,7 @@ h3.post-title-template{
 }
 
 p.post-date-template{
+  color: #86171D;
   padding-bottom: 15px;
 }
 /* Excerpt Width */
