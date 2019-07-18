@@ -105,7 +105,7 @@ h4.post-title {
   max-width: 1000px;
   padding: 65px 0 55px 0;
 }
-h3.post-title-template a {
+.post-title-template a {
   text-decoration: none;
   color: #86171D;
   font-weight: bold;
@@ -115,7 +115,7 @@ h3.post-title-template{
   margin: 20px 0px 5px 0px;
 }
 
-p.post-date-template{
+.post-date-template p{
   color: #86171D;
   padding-bottom: 15px;
 }
