@@ -16,11 +16,11 @@ add_action ('init', 'custom_menus');
 //Adds widget areas
 function blank_widgets_init(){
 
-  //Header Widget
+  //Header Logo
   register_sidebar( array(
-    'name'          =>  ('Hero Image'),
-    'id'            =>  'hero-image',
-    'description'   =>  'Hero Image on Home Page',
+    'name'          =>  ('Header Logo'),
+    'id'            =>  'header-logo',
+    'description'   =>  'Logo Image on Header',
     'before_widget' =>  '<div class="hero-image-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
@@ -59,6 +59,17 @@ function blank_widgets_init(){
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
+));
+
+//Book Image Home Page
+register_sidebar( array(
+  'name'          =>  ('Book Image Home'),
+  'id'            =>  'book-image-home',
+  'description'   =>  'Widget area for book image section on Home Page',
+  'before_widget' =>  '<div class="book-image-home">',
+  'after_widget'  =>  '</div>',
+  'before_title'  =>  '<h3 class="widget-title">',
+  'after_title'   =>  '</h3>'
 ));
 
   //Sidebar Widget

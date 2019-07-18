@@ -10,3 +10,113 @@ Text Domain: monibasu
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
+
+body {
+  font-family:'Fira Sans', sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+}
+
+/* *** Header **** */
+
+header .row {
+  display:flex;
+  justify-content: left;
+  align-items: center;
+}
+
+ul#menu-header-menu li {
+  display: inline;
+}
+ul#menu-header-menu a{
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  color:black;
+}
+.menu-header-menu-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* **** Home Page **** */
+.row.book-home {
+  background-color:#ebe7e5;
+}
+
+
+/* **** Post Attributes **** */
+.post-title a {
+  text-decoration: none;
+}
+
+/* *** Writing Template Page * **/
+h3.post-title a {
+  color: #86171D;
+}
+
+h3.post-title{
+  margin: 20px 0px 5px 0px
+}
+/* Excerpt Width */
+.nine.columns.single-content p {
+  width: 300px;
+}
+
+/* **** Post Pages ***** */
+.post-content-text {
+  padding-top: 20px;
+}
+p.post-date, p.post-author {
+  padding-bottom:5px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #86171D;
+}
+
+.post-feature img {
+  margin: 70px 0 0 0;
+}
+/* *** Side Bar ****  */
+.sidebar {
+  font-size: 15px;
+}
+/* **** Hide 'Pages' ***** */
+h3.widget-title {
+    display: none;
+}
+/* **** Hide 'Search' ***** */
+label.screen-reader-text {
+    display: none;
+}
+.widget-sidebar ul {
+  list-style-type: none;
+}
+.widget-sidebar a {
+  text-decoration: none;
+}
+
+/* **** Search Button ***** */
+input#searchsubmit {
+  font-size: 10px;
+}
+
+
+/* **** Footer ***** */
+footer {
+  background-image: url("footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 170px;
+}
