@@ -72,6 +72,7 @@ ul#menu-header-menu a{
     background-color: #ebe7e5;
     display: flex;
     justify-content: center;
+    padding: 60px 0;
 }
 
 .purchase {
@@ -81,7 +82,7 @@ ul#menu-header-menu a{
 .one-third.column.posts {
     display: inline-grid;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 0 30px 0;
 }
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
     width: auto;
