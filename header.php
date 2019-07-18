@@ -18,7 +18,11 @@
 <body>
   <header >
     <div class= "container">
+
+
+
       <div class="row">
+        <?php dynamic_sidebar('header-image'); ?>
         <!--Logo (May need Widget Area)-->
         <div class="three columns">
             <?php dynamic_sidebar('header-logo'); ?>

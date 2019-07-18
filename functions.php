@@ -15,6 +15,17 @@ add_action ('init', 'custom_menus');
 
 //Adds widget areas
 function blank_widgets_init(){
+  //Header Image
+  register_sidebar( array(
+    'name'          =>  ('Header Image'),
+    'id'            =>  'header-image',
+    'description'   =>  'Image on Header',
+    'before_widget' =>  '<div class="header-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
 
   //Header Logo
   register_sidebar( array(
