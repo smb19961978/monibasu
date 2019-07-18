@@ -32,7 +32,7 @@ function blank_widgets_init(){
     'name'          =>  ('Header Logo'),
     'id'            =>  'header-logo',
     'description'   =>  'Logo Image on Header',
-    'before_widget' =>  '<div class="hero-image-widget">',
+    'before_widget' =>  '<div class="logo-image-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
