@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <div class="container templates">
 
-    <h2><a href="<?php echo home_url('/');?>"><?php bloginfo('name'); ?></a></h2>
+    <h2>WRITING</h2>
 
   <div class="row">
 
