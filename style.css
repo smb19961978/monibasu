@@ -139,10 +139,10 @@ p.post-date-template {
   color: #86171D;
   padding-bottom: 5px;
 }
-img.attachment-medium.size-medium.wp-post-image {
+.nine.columns.single-content img {
   padding-top: 39px;
 }
-.three.columns.sidebar {
+.three.columns {
   padding-top:30px;
 }
 /* Excerpt Width */
