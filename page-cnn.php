@@ -17,7 +17,11 @@
 
   <div class="row">
 
-    <div class="nine columns single-content">
+    <div class="nine columns single-content-cnn">
+
+      <?php dynamic_sidebar('cnn-image'); ?>
+      <?php dynamic_sidebar('cnn-text'); ?>
+
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
@@ -35,7 +39,6 @@
         <?php wp_reset_postdata(); ?>
 
     </div>
-
 
 
     <div class="three columns template">

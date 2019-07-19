@@ -207,6 +207,10 @@ input#searchsubmit {
 }
 
 /* **** CNN PAGE ***** */
+.nine.columns.single-content-cnn img {
+  padding-top: 39px;
+}
+
 
 
 
