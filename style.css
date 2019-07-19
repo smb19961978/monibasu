@@ -189,6 +189,11 @@ input#searchsubmit {
   font-size: 10px;
 }
 
+/* **** icons **** */
+
+.row .icons{
+    display: flex;
+}
 
 /* **** Footer ***** */
 footer {
