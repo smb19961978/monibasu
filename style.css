@@ -207,9 +207,10 @@ input#searchsubmit {
 }
 
 /* **** CNN PAGE ***** */
-.nine.columns.single-content-cnn img {
-  padding-top: 39px;
+.row.cnn {
+  padding-top: 20px;
 }
+
 .cnn-text-widget {
   max-width: 600px;
   padding:20px 0 30px 0;

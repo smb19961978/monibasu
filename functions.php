@@ -115,6 +115,49 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
+//CHAPLAIN page
+  //Chaplain Image Widget
+  register_sidebar( array(
+    'name'          =>  ('Chaplain Image'),
+    'id'            =>  'chaplain-image',
+    'description'   =>  'Chaplain Image widget area',
+    'before_widget' =>  '<div class="chaplain-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+  //Chaplain Text Top Widget
+  register_sidebar( array(
+    'name'          =>  ('Chaplain text'),
+    'id'            =>  'chaplain-text-top',
+    'description'   =>  'Chaplain top text widget area',
+    'before_widget' =>  '<div class="chaplain-text-top">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Chaplain Book Area Widget
+  register_sidebar( array(
+    'name'          =>  ('Chaplain Book Widget'),
+    'id'            =>  'chaplain-book-image',
+    'description'   =>  'Chaplain book image widget area',
+    'before_widget' =>  '<div class="chaplain-book-image">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  
+  //Chaplain Text Bottom Widget
+  register_sidebar( array(
+    'name'          =>  ('Chaplain text bottom'),
+    'id'            =>  'chaplain-text-bottom',
+    'description'   =>  'Chaplain bottom text widget area',
+    'before_widget' =>  '<div class="chaplain-text-bottom">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
 
 
   //Facebook Widget
