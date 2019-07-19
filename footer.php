@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="copyright">
-              <p>Moni Basu Placeholder</p>  
+              <p>Moni Basu <?php echo date("Y");?> &copy; </p>  
         </div>
     </div>
 

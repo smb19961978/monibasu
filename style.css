@@ -83,7 +83,11 @@ ul#menu-header-menu a:hover {
 }
 
 /* **** Home Page **** */
-
+.row.about-us {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 0;
+}
 .row.book-home {
     background-color: #ebe7e5;
     display: flex;
@@ -197,11 +201,6 @@ input#searchsubmit {
   font-size: 10px;
 }
 
-/* **** icons **** */
-
-.row.icons{
-    display: inline-flex;
-}
 
 
 /* **** Footer ***** */
@@ -211,4 +210,22 @@ footer {
   background-position: center;
   background-size: cover;
   height: 220px;
+}
+
+/* **** icons **** */
+
+.row.icons{
+  display: inline-flex;
+  max-width: 400px;
+}
+
+.icons img {
+  max-width: 80px;
+  padding: 10px;
+}
+
+.copyright p {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }

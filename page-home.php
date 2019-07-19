@@ -12,7 +12,7 @@
   </div>
 
   <!-- About Text Section -->
-  <div class="row">
+  <div class="row about-us">
     <div class="nine columns">
       <?php dynamic_sidebar('about-us'); ?>
     </div>
