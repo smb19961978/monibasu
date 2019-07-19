@@ -1,9 +1,6 @@
 <footer>
     <div class="container">
-      <img src="icon_facebook.png">
-      <img src="icon_instagram.png">
-      <img src="icon_linkedin.png">
-      <img src="icon_twitter.png">
+      <?php dynamic_sidebar('icons'); ?>
       <p>Moni Basu Placeholder</p>
     </div>
 
