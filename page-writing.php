@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <div class="container templates">
 
-    <h2>WRITING </h2>
+    <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
   <div class="row">
 

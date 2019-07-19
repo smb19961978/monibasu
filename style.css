@@ -118,6 +118,12 @@ h4.post-title a:hover {
 }
 
 /* *** Writing Template Page * **/
+.page-title a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .container.templates {
   max-width: 1000px;
   padding: 65px 0 55px 0;
