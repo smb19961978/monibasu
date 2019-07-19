@@ -210,8 +210,10 @@ input#searchsubmit {
 .nine.columns.single-content-cnn img {
   padding-top: 39px;
 }
-
-
+.cnn-text-widget {
+  max-width: 600px;
+  padding:20px 0 30px 0;
+}
 
 
 /* **** Footer ***** */

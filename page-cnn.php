@@ -3,19 +3,8 @@
 <div class="container templates">
 
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-  <div class="row cnn">
-    <div class="twelve columns cnn">
-      <?php dynamic_sidebar('cnn-image'); ?>
-    </div>
-  </div>
-  <div class="row cnn">
-    <div class="twelve columns cnn">
-      <?php dynamic_sidebar('cnn-text'); ?>
-    </div>
-  </div>
 
-
-  <div class="row">
+  <div class="row cnn">
 
     <div class="nine columns single-content-cnn">
 
@@ -41,7 +30,7 @@
     </div>
 
 
-    <div class="three columns template">
+    <div class="three columns cnn">
       <?php get_sidebar(); ?>
     </div>
 
