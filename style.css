@@ -218,16 +218,23 @@ input#searchsubmit {
 
 
 /* **** CHAPLAIN PAGE ***** */
+.six.columns h1 {
+  margin-bottom: 0;
+}
 .six.columns {
   padding: 55px 0 40px 0;
 }
-.purchase-book-page button {
+button.purchase-book-page {
   background-color: #86171D;
+  color:white;
+  padding: 0px 3px;
 }
 p.chaplain-caption {
-  font-size: 20px;
+  font-size: 19px;
   font-style: italic;
   font-weight: 400;
+  margin-bottom: 0;
+
 }
 .six.columns.image-area {
   display: inline-flex;
@@ -236,10 +243,19 @@ p.chaplain-caption {
 .chaplain-text-top, .chaplain-text-bottom {
   column-count: 2;
   column-gap: 60px;
-  padding: 20px 0 30px 0;
+  padding: 10px 0 30px 0;
 }
-.chaplain-img-widget img {
+.chaplain-text-bottom {
+  padding: 30px 0 40px 0;
+}
+.chaplain-image-widget img {
   border: 2px solid #86171D;
+}
+.chaplain-book-image {
+  background-color: #F1F0F0;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
 }
 .twelve.columns.book-image {
   background-color: #F1F0F0;
