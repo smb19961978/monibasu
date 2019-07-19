@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 
 
-<div class="container">
+<div class="container template">
 
 
   <div class="row">
