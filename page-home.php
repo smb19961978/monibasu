@@ -4,15 +4,10 @@
 
 
 <div class="container">
-  <!-- Hero Image Section -->
-  <div class="row">
-    <div class="twelve columns">
-      <?php dynamic_sidebar('hero-image'); ?>
-    </div>
-  </div>
 
   <!-- About Text Section -->
   <div class="row about-us-block">
+    <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
     <div class="nine columns">
       <?php dynamic_sidebar('about-us'); ?>
     </div>

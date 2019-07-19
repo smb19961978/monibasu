@@ -88,7 +88,10 @@ ul#menu-header-menu a:hover {
   align-items: center;
   padding: 20px 0;
 }
-.nine.columns.about-us {
+.about-us img {
+  border: 1px solid #86171D;
+}
+.nine.columns.about-us p {
   padding-right: 60px;
 }
 .row.book-home {
@@ -96,6 +99,9 @@ ul#menu-header-menu a:hover {
     display: flex;
     justify-content: center;
     padding: 60px 0;
+}
+.book-home h3 {
+  font-family: 'Anton',sans-serif;
 }
 
 .purchase {
