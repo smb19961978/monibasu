@@ -8,11 +8,12 @@
 
   <div class="row">
     <div class="six columns">
-      <h1>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h1>
+      <h1>CHAPLAIN<br>TURNER'S <br>WAR </h1>
+       <button class="purchase-book-page">Purchase</button>
       <p class="chaplain-caption">This is a caption</p>
     </div>
 
-    <div class="six columns">
+    <div class="six columns image-area">
       <?php dynamic_sidebar('chaplain-image'); ?>
     </div>
   </div> <!-- End row with header and image -->
