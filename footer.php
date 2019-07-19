@@ -1,16 +1,12 @@
 <footer>
     <div class="container">
         <div class="row icons">
-          <div class="three columns icons">
+          <div class="twelve columns">
               <?php dynamic_sidebar('facebook'); ?>
-          </div>
-          <div class="three columns icons">
+
               <?php dynamic_sidebar('twitter'); ?>
-          </div>
-          <div class="three columns icons">
-              <?php dynamic_sidebar('instagram'); ?>
-          </div>
-          <div class="three columns icons">
+
+
               <?php dynamic_sidebar('linkedin'); ?>
 
         </div>
