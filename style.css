@@ -104,7 +104,7 @@ h1.page-title {
     justify-content: center;
     padding: 60px 0;
 }
-.book-home h2 {
+.book-home h1 {
   font-family: 'Anton',sans-serif;
 }
 
@@ -114,14 +114,15 @@ h1.page-title {
   font-family: 'Fira Sans',sans-serif;
 }
 button.purchase {
-  font-size: 19px;
+  font-size: 15px;
+  font-weight: 100;
   font-family: 'Fira Sans',sans-serif;
   background-color: #86171D;
   color:white;
   padding: 0px 3px;
 }
 .row.posts-home {
-  display: inline;
+  display: flex;
   justify-content: center;
 }
 .one-third.column.posts {

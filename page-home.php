@@ -18,7 +18,7 @@
 
   <div class="row book-home">
 
-      <h2>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h2>
+      <h1>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h1>
 
 
       <?php dynamic_sidebar('book-image-home');?>
