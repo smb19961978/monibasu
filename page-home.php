@@ -12,7 +12,7 @@
   </div>
 
   <!-- About Text Section -->
-  <div class="row about-us">
+  <div class="row about-us-block">
     <div class="nine columns">
       <?php dynamic_sidebar('about-us'); ?>
     </div>
@@ -30,7 +30,7 @@
 
   </div>
 
-  <div class="row">
+  <div class="row posts-home">
     <?php
       global $post;
       $args = array( 'posts_per_page' => 3 );

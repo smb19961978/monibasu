@@ -83,10 +83,13 @@ ul#menu-header-menu a:hover {
 }
 
 /* **** Home Page **** */
-.row.about-us {
+.row.about-us-block {
   display: inline-flex;
   align-items: center;
   padding: 20px 0;
+}
+.nine.columns.about-us {
+  padding-right: 60px;
 }
 .row.book-home {
     background-color: #ebe7e5;
@@ -98,12 +101,12 @@ ul#menu-header-menu a:hover {
 .purchase {
   display: flex;
 }
-
-.one-third.column.posts {
-    display: inline-grid;
-    justify-content: center;
-    padding: 50px 0 30px 0;
+.row.posts-home {
+  display: inline-grid;
+  justify-content: center;
+  padding: 50px 0 30px 0;
 }
+
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
     width: auto;
     height: 200px;
@@ -155,7 +158,7 @@ p.post-date-template {
 .nine.columns.single-content img {
   padding-top: 39px;
 }
-.three.columns {
+.three.columns.template {
   padding-top:30px;
 }
 /* Excerpt Width */

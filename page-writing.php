@@ -27,7 +27,7 @@
 
 
 
-    <div class="three columns">
+    <div class="three columns template">
       <?php get_sidebar(); ?>
     </div>
 
