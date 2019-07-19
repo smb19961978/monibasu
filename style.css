@@ -83,16 +83,20 @@ ul#menu-header-menu a:hover {
 }
 
 /* **** Home Page **** */
+h1.page-title {
+  padding-top: 55px;
+}
 .row.about-us-block {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
+  justify-content: center;
   padding: 20px 0;
 }
 .about-us-image img {
   border: 1px solid #86171D;
 }
 .about-us p {
-  padding-right: 60px;
+  padding-right: 75px;
 }
 .row.book-home {
     background-color: #ebe7e5;
@@ -100,14 +104,18 @@ ul#menu-header-menu a:hover {
     justify-content: center;
     padding: 60px 0;
 }
-.book-home h3 {
+.book-home h2 {
   font-family: 'Anton',sans-serif;
 }
 
 .purchase {
   display: flex;
+  font-size: 19px;
+  font-family: 'Fira Sans',sans-serif;
 }
 button.purchase {
+  font-size: 19px;
+  font-family: 'Fira Sans',sans-serif;
   background-color: #86171D;
   color:white;
   padding: 0px 3px;
