@@ -157,7 +157,7 @@ h4.post-title a:hover {
 }
 .container.templates {
   max-width: 1000px;
-  padding: 65px 0 55px 0;
+  padding-bottom: 55px;
 }
 .post-title-template a {
   text-decoration: none;
