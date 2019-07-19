@@ -207,12 +207,8 @@ input#searchsubmit {
 }
 
 /* **** CNN PAGE ***** */
-.row.cnn {
-  padding-bottom: 30px;
-}
-.three.columns.cnn {
-  padding-left: 20px;
-}
+
+
 
 /* **** Footer ***** */
 footer {
