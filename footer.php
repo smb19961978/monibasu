@@ -1,6 +1,9 @@
 <footer>
     <div class="container">
-      <p>Social Media Icons Plugin</p>
+      <img src="icon_facebook.png">
+      <img src="icon_instagram.png">
+      <img src="icon_linkedin.png">
+      <img src="icon_twitter.png">
       <p>Moni Basu Placeholder</p>
     </div>
 
