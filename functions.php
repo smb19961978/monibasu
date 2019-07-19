@@ -82,8 +82,18 @@ register_sidebar( array(
   'before_title'  =>  '<h3 class="widget-title">',
   'after_title'   =>  '</h3>'
 ));
-
   //Sidebar Widget
+  register_sidebar( array(
+    'name'          =>  ('Sidebar'),
+    'id'            =>  'sidebar',
+    'description'   =>  'Sidebar widget area',
+    'before_widget' =>  '<div class="widget-sidebar">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+  //Facebook Widget
   register_sidebar( array(
     'name'          =>  ('Facebook Icons'),
     'id'            =>  'facebook',
@@ -93,9 +103,9 @@ register_sidebar( array(
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-    
-    
-     //Sidebar Widget
+
+
+     //Twitter Widget
   register_sidebar( array(
     'name'          =>  ('Twitter Icons'),
     'id'            =>  'twitter',
@@ -106,7 +116,7 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
-     //Sidebar Widget
+     //LinkedIn Widget
   register_sidebar( array(
     'name'          =>  ('LinkedIn Icons'),
     'id'            =>  'linkedin',
@@ -116,8 +126,8 @@ register_sidebar( array(
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-    
-     //Sidebar Widget
+
+     //Instagram Widget
   register_sidebar( array(
     'name'          =>  ('Instagram Icons'),
     'id'            =>  'instagram',
