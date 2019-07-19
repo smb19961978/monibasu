@@ -102,11 +102,13 @@ ul#menu-header-menu a:hover {
   display: flex;
 }
 .row.posts-home {
-  display: inline-grid;
+  display: inline;
   justify-content: center;
-  padding: 50px 0 30px 0;
 }
-
+.one-third.column.posts {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
     width: auto;
     height: 200px;

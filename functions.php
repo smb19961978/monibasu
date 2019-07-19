@@ -93,6 +93,30 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
+  //CNN Image Widget
+  register_sidebar( array(
+    'name'          =>  ('CNN Image'),
+    'id'            =>  'cnn-image',
+    'description'   =>  'CNN Image widget area',
+    'before_widget' =>  '<div class="cnn-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+  //CNN Text Widget
+  register_sidebar( array(
+    'name'          =>  ('CNN Text'),
+    'id'            =>  'cnn-text',
+    'description'   =>  'CNN Image widget area',
+    'before_widget' =>  '<div class="cnn-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
+
   //Facebook Widget
   register_sidebar( array(
     'name'          =>  ('Facebook Icons'),
@@ -103,7 +127,6 @@ register_sidebar( array(
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-
 
      //Twitter Widget
   register_sidebar( array(
