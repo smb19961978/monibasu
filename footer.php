@@ -1,10 +1,21 @@
 <footer>
     <div class="container">
-      <?php dynamic_sidebar('facebook'); ?>
-      <?php dynamic_sidebar('twitter'); ?>
-      <?php dynamic_sidebar('instagram'); ?>
-      <?php dynamic_sidebar('linkedin'); ?>
-      <p>Moni Basu Placeholder</p>
+        <div class="row">
+            <div>
+              <?php dynamic_sidebar('facebook'); ?>
+            </div>
+            <div>
+              <?php dynamic_sidebar('twitter'); ?>
+            </div>
+            <div>
+              <?php dynamic_sidebar('instagram'); ?>
+            </div>
+            <div>
+              <?php dynamic_sidebar('linkedin'); ?>
+            </div>
+              <p>Moni Basu Placeholder</p>
+            
+        </div>
     </div>
 
 </footer>
