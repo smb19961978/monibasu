@@ -148,6 +148,7 @@ h4.post-title a:hover {
 .post-title-template a:hover {
   color:black;
   background-color: #86171D;
+
 }
 h3.post-title-template{
   margin: 20px 0px 5px 0px;
@@ -158,8 +159,9 @@ p.post-date-template {
   padding-bottom: 5px;
 }
 .nine.columns.single-content img {
-  padding-top: 39px;
+  margin-top: 36px;
 }
+
 .three.columns.template {
   padding-top:30px;
 }
@@ -242,11 +244,11 @@ p.chaplain-caption {
 }
 .chaplain-text-top, .chaplain-text-bottom {
   column-count: 2;
-  column-gap: 60px;
+  column-gap: 40px;
   padding: 10px 0 30px 0;
 }
 .chaplain-text-bottom {
-  padding: 30px 0 40px 0;
+  padding: 40px 0;
 }
 .chaplain-image-widget img {
   border: 2px solid #86171D;
