@@ -199,12 +199,10 @@ input#searchsubmit {
 
 /* **** icons **** */
 
-.row .icons{
-    display: flex;
+.row.icons{
+    display: inline-flex;
 }
-.icons img {
-  max-width: 100px;
-}
+
 
 /* **** Footer ***** */
 footer {
@@ -212,5 +210,5 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 170px;
+  height: 220px;
 }

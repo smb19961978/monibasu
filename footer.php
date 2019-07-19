@@ -13,8 +13,9 @@
             <div>
               <?php dynamic_sidebar('linkedin'); ?>
             </div>
-              <p>Moni Basu Placeholder</p>
-            
+        </div>
+        <div class="copyright">
+              <p>Moni Basu Placeholder</p>  
         </div>
     </div>
 
