@@ -35,6 +35,8 @@ p {
 /* *** Header **** */
 header {
   padding-bottom: 30px;
+  /*background-color placeholder */
+  background-color:  #ebe7e5;
 }
 
 
@@ -199,6 +201,9 @@ input#searchsubmit {
 
 .row .icons{
     display: flex;
+}
+.icons img {
+  max-width: 100px;
 }
 
 /* **** Footer ***** */
