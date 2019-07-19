@@ -291,18 +291,20 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 220px;
+  height: 250px;
 }
 
 /* **** icons **** */
 
-.row.icons{
+.twelve.columns.footer {
   display: flex;
   justify-content: center;
+  padding: 55px 0 10px;
 }
 
 .icons img {
   width: 50px;
+  padding: 0 10px;
 }
 
 .copyright p {

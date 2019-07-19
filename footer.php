@@ -1,11 +1,12 @@
 <footer>
     <div class="container">
         <div class="row icons">
-          <div class="twelve columns">
+          <div class="twelve columns footer">
               <?php dynamic_sidebar('facebook'); ?>
 
               <?php dynamic_sidebar('twitter'); ?>
 
+              <?php dynamic_sidebar('instagram'); ?>
 
               <?php dynamic_sidebar('linkedin'); ?>
 
