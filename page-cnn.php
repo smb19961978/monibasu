@@ -3,7 +3,7 @@
 <div class="container templates">
 
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-  <div class="row">
+  <div class="row cnn">
     <div class="eight columns cnn">
       <?php dynamic_sidebar('cnn-image'); ?>
     </div>
