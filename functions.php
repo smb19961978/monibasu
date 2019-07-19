@@ -85,14 +85,50 @@ register_sidebar( array(
 
   //Sidebar Widget
   register_sidebar( array(
-    'name'          =>  ('Footer Icons'),
-    'id'            =>  'icons',
+    'name'          =>  ('Facebook Icons'),
+    'id'            =>  'facebook',
     'description'   =>  'Icons footer area',
     'before_widget' =>  '<div class="icons">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+    
+    
+     //Sidebar Widget
+  register_sidebar( array(
+    'name'          =>  ('Twitter Icons'),
+    'id'            =>  'twitter',
+    'description'   =>  'Icons footer area',
+    'before_widget' =>  '<div class="icons">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+     //Sidebar Widget
+  register_sidebar( array(
+    'name'          =>  ('LinkedIn Icons'),
+    'id'            =>  'linkedin',
+    'description'   =>  'Icons footer area',
+    'before_widget' =>  '<div class="icons">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+    
+     //Sidebar Widget
+  register_sidebar( array(
+    'name'          =>  ('Instagram Icons'),
+    'id'            =>  'instagram',
+    'description'   =>  'Icons footer area',
+    'before_widget' =>  '<div class="icons">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
 
 }
   add_action('widgets_init','blank_widgets_init');
