@@ -1,13 +1,7 @@
 <?php /*Template Name: Home Page Template*/ ?>
 
 <?php get_header(); ?>
-<?php if(has_post_thumbnail()){?>
-    <div class="hero-image">
-        <?php the_post_thumbnail('full'); ?>
-    </div>
-    <?php}
-?>
-    
+
 
 <div class="container">
 <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
