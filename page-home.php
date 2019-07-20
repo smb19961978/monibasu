@@ -9,7 +9,7 @@
         </div> 
      <?php } ?> 
 
-<div class="container">
+<div class="container featured-image-container">
 <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <!-- About Text Section -->
   <div class="row about-us-block">
@@ -21,7 +21,7 @@
       <?php dynamic_sidebar('about-us-image'); ?>
     </div>
   </div>
-
+</div>
   <div class="row book-home">
 
       <h1>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h1>
@@ -30,7 +30,7 @@
       <?php dynamic_sidebar('book-image-home');?>
 
   </div>
-
+<div class="container">
   <div class="row posts-home">
     <?php
       global $post;
