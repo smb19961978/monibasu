@@ -45,13 +45,26 @@ header .row {
   justify-content: left;
   align-items: center;
 }
-/* header banner photo */
+/* header banner photo 
 img.image.wp-image-74.attachment-full.size-full {
   position: relative;
   top: 0;
   left: 0;
 
   border-bottom: 9px solid #86171D;
+}*/
+
+.hero-image{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 800px;
+    object-position: left;
 }
 /* Menu position behind image */
 .row.menu {
