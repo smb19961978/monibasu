@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 <?php if (has_post_thumbnail()){?>
     <div class="hero-image">
-        <?php the_post_thumbanil('full'); ?>
+        <?php the_post_thumbnail('full'); ?>
     </div>
     <?php}
 }
