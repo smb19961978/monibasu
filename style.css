@@ -18,6 +18,7 @@ body {
 .container {
   max-width: 1200px;
   width: 100%;
+  
 }
 .column,
 .columns {
@@ -44,6 +45,7 @@ header .row {
   display:flex;
   justify-content: left;
   align-items: center;
+  z-index: 99;
 }
 /* header banner photo 
 img.image.wp-image-74.attachment-full.size-full {
@@ -140,7 +142,7 @@ button.purchase {
 }
 
 .container.featured-image-container{
-    margin-top: 650px;
+    margin-top: 750px;
 }
 .one-third.column.posts {
     text-align: center;
