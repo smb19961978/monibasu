@@ -139,7 +139,7 @@ button.purchase {
   justify-content: center;
 }
 
-.row.about-us-block{
+.row .about-us-block{
     margin-top: 600px;
 }
 .one-third.column.posts {
