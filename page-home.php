@@ -1,14 +1,14 @@
 <?php /*Template Name: Home Page Template*/ ?>
 
 <?php get_header(); ?>
-if (has_post_thumbnail()){?>
+<?php if (has_post_thumbnail()){?>
     <div class="hero-image">
         <?php the_post_thumbanil('full'); ?>
     </div>
     <?php}
 }
 
-<?php
+?>
     
 
 <div class="container">
