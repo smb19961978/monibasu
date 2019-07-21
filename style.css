@@ -460,12 +460,13 @@ footer {
     column-count: 1;
     padding: 20px 35px;
   }
-}
-
-@media (max-width:700px) {
   .container.templates {
     padding: 0 40px 55px 40px;
   }
+}
+
+@media (max-width:700px) {
+
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 150px;
     height: auto;
