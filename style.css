@@ -464,6 +464,11 @@ footer {
   .row.about-us-block {
     max-width: 600px;
   }
+
+  .row.contact-moni-section {
+    max-width: 600px;
+  }
+  
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 200px;
     height: auto;
