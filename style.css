@@ -88,6 +88,10 @@ ul#menu-header-menu li {
   display: inline;
 }
 
+#mega-menu-wrap-header-menu {
+  background-color: transparent;
+}
+
 ul#menu-header-menu a{
   text-decoration: none;
   font-size: 18px;
