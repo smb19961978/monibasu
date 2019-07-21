@@ -17,7 +17,7 @@
          <?php dynamic_sidebar('about-us'); ?>
        </div>
 
-      <div class="three columns">
+       <div class="three columns">
           <?php
             if(have_posts()){
               while(have_posts()){
@@ -26,7 +26,8 @@
                 }//end while
               }//ends if
             ?>
-     </div>
+      </div>
+    </div>
 </div>
 
 
