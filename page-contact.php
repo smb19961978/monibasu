@@ -9,13 +9,13 @@
      <?php } ?>
 
 <div class="container templates featured-image-container">
-  
+
   <h1 class="page-title contact-heading">CONTACT<br>MONI</h1>
 
-     <div class="row contact-us-section">
+     <div class="row contact-moni-section">
 
-       <div class="nine columns about">
-         <?php dynamic_sidebar('about-us'); ?>
+       <div class="nine columns">
+         <?php dynamic_sidebar('contact-moni'); ?>
        </div>
 
       <div class="three columns">

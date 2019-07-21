@@ -215,7 +215,7 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
-     //Instagram Widget
+  //Instagram Widget
   register_sidebar( array(
     'name'          =>  ('Instagram Icons'),
     'id'            =>  'instagram',
@@ -226,7 +226,16 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
-
+  //Contact Moni Text Block Widget
+  register_sidebar( array(
+    'name'          =>  ('Contact Moni Text Block'),
+    'id'            =>  'contact-moni',
+    'description'   =>  'Widget area for Contact Moni section',
+    'before_widget' =>  '<div class="contact-moni">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
 
 }
   add_action('widgets_init','blank_widgets_init');
