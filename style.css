@@ -388,8 +388,9 @@ padding: 60px 0;
   color: #fff;
 }
 
-.red a {
+.contact-heading {
   color: #86171D;
+  text-transform: uppercase;
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
