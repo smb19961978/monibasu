@@ -417,6 +417,10 @@ padding: 60px 0;
     height: 100vh;
 }
 
+.archive-margin{
+    margin-top: 750px;
+}
+
 /* **** Footer ***** */
 footer {
   background-image: url("footer.jpg");

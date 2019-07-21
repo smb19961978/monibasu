@@ -8,7 +8,7 @@
      <?php } ?>
 
 <div class="container templates archive">
-    <div class="row">
+    <div class="row archive-margin">
         <div class="nine columns">
     <?php
         if(have_posts()){
