@@ -480,8 +480,16 @@ footer {
     max-width: 150px;
     height: auto;
   }
+  .about-us p {
+    padding-right: 0px;
+  }
   .row.about-us-block {
     display: grid;
+  }
+  .about-us-image img {
+    max-width: 600px;
+    height: auto;
+    width:100%;
   }
   .nine.columns.about {
     width: 100%;
