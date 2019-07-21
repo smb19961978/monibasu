@@ -372,6 +372,30 @@ padding: 60px 0;
   max-width: 1000px;
 }
 
+/**** CONTACT PAGE *****/
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color: #86171D;
+  border: 1px solid;
+  opacity: .9;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 1px;
+}
+
+.red {
+  color: #86171D;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color: #86171D;
+  border: 1px solid;
+  opacity: .9;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 1px;
+}
+
 /* **** Footer ***** */
 footer {
   background-image: url("footer.jpg");
