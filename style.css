@@ -326,6 +326,10 @@ padding: 60px 0;
   justify-content: center;
   padding: 60px 0;
 }
+.chaplain-book-image {
+  display: flex;
+  justify-content: center;
+}
 .container.chaplain {
   max-width: 1000px;
 }
