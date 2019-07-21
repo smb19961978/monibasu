@@ -36,8 +36,8 @@ p {
 /* *** Header **** */
 header {
   padding-bottom: 30px;
-  /*background-color placeholder */
-  background-color:  #ebe7e5;
+  /*background-color placeholder
+  background-color:  #ebe7e5; */
   height: 100px;
 }
 
@@ -99,8 +99,7 @@ ul#menu-header-menu a:hover {
 }
 
 /* **** Home Page **** */
-h1.page-title {
-  padding-top: 55px;
+h1.page-title-home {
   padding-left: 20px;
 }
 /*
@@ -281,6 +280,7 @@ input#searchsubmit {
 .six.columns {
   padding: 55px 0 40px 0;
 }
+
 button.purchase-book-page {
   background-color: #86171D;
   color:white;
@@ -308,7 +308,7 @@ p.chaplain-caption {
 .chaplain-image-widget img {
   border: 2px solid #86171D;
 }
-.chaplain-book-image {
+/*.chaplain-book-image {
   background-color: #F1F0F0;
   display: flex;
   justify-content: center;
@@ -319,7 +319,14 @@ p.chaplain-caption {
   display: flex;
   justify-content: center;
   padding: 60px 0;
+}*/
+.row.book-image {
+background-color: #ebe7e5;
+display: flex;
+justify-content: center;
+padding: 60px 0;
 }
+
 /* **** Footer ***** */
 footer {
   background-image: url("footer.jpg");

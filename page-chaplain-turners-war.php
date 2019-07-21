@@ -2,12 +2,12 @@
 
 <?php get_header(); ?>
 
-<?php 
+<?php
     if(has_post_thumbnail()){ ?>
         <div class="hero-image">
             <?php the_post_thumbnail(); ?>
-        </div> 
-     <?php } ?> 
+        </div>
+     <?php } ?>
 
 <div class="container templates">
 
@@ -30,13 +30,18 @@
       <?php dynamic_sidebar('chaplain-text-top'); ?>
     </div>
   </div> <!-- End row with top text  -->
+</div> <!--- End container --->
 
-  <div class="row">
+
+
+  <div class="row book-image">
     <div class="tweleve columns book-image">
       <?php dynamic_sidebar('chaplain-book-image'); ?>
     </div>
   </div>
 
+
+<div class="container templates">
   <div class="row">
     <div class="tweleve columns book-text">
       <?php dynamic_sidebar('chaplain-text-bottom'); ?>
