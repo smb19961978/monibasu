@@ -458,11 +458,14 @@ footer {
 @media (max-width:800px) {
   .chaplain-text-top, .chaplain-text-bottom {
     column-count: 1;
-    padding: 20px 10px;
+    padding: 20px 35px;
   }
 }
 
 @media (max-width:700px) {
+  .container.templates {
+    padding: 0 40px 55px 40px;
+  }
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 150px;
     height: auto;

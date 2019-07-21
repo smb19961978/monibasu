@@ -5,7 +5,7 @@
             <?php the_post_thumbnail(); ?>
         </div>
      <?php } ?>
-<div class="container templates">
+<div class="container templates featured-image-container">
   <div class="row">
     <div class="eight columns single-content">
     <?php
