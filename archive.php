@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
+<?php
+    if(has_post_thumbnail()){ ?>
+        <div class="hero-image">
+            <?php the_post_thumbnail(); ?>
+        </div>
+     <?php } ?>
+
 <div class="container templates archive">
     <div class="row">
         <div class="nine columns">
