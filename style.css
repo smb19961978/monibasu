@@ -131,13 +131,6 @@ h1.page-title-home a {
   text-decoration: none;
   color: #222222;
 }
-/*
-.row.about-us-block {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 0;
-}*/
 
 .row.about-us-block {
   padding: 20px;
@@ -358,12 +351,6 @@ p.chaplain-caption {
 .chaplain-image-widget img {
   border: 2px solid #86171D;
 }
-/*.chaplain-book-image {
-  background-color: #F1F0F0;
-  display: flex;
-  justify-content: center;
-  padding: 60px 0;
-} */
 
 .row.book-image {
 background-color: #ebe7e5;
@@ -477,10 +464,25 @@ footer {
   }
 }
 
+@media (max-width:800px) {
+	  .chaplain-text-top, .chaplain-text-bottom {
+	    column-count: 1;
+	    padding: 20px 10px;
+	    padding: 20px 35px;
+	  }
+	}
+
+
 @media (max-width:700px) {
+  .about-us p {
+    padding-right: 0px;
+  }
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 150px;
     height: auto;
+  }
+  .sidebar {
+    padding-left: 25px;
   }
   .row.about-us-block {
     display: grid;
