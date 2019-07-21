@@ -9,14 +9,16 @@
      <?php } ?>
 
 <div class="container templates featured-image-container">
+  
+  <h1 class="page-title contact-heading"><?php the_title(); ?></a></h1>
+
      <div class="row contact-us-section">
 
        <div class="nine columns about">
-         <h2><?php the_title(); ?></h2>
          <?php dynamic_sidebar('about-us'); ?>
        </div>
 
-      <div class="three columns contact-heading">
+      <div class="three columns">
        <?php
          if(have_posts()){
            while(have_posts()){
@@ -26,7 +28,9 @@
          }//ends if
        ?>
      </div>
+
     </div>
+
 </div>
 
 
