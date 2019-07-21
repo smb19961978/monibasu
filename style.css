@@ -388,8 +388,8 @@ padding: 60px 0;
   color: #fff;
 }
 
-.red {
-  color: #86171D !important;
+.red a {
+  color: #86171D;
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
