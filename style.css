@@ -18,7 +18,7 @@ body {
 .container {
   max-width: 1200px;
   width: 100%;
-  
+
 }
 .column,
 .columns {
@@ -48,7 +48,7 @@ header .row {
   align-items: center;
   z-index: 99;
 }
-/* header banner photo 
+/* header banner photo
 img.image.wp-image-74.attachment-full.size-full {
   position: relative;
   top: 0;
@@ -178,7 +178,7 @@ h4.post-title a:hover {
 .container.templates {
   max-width: 1000px;
   padding-bottom: 55px;
-  margin-top:750px; 
+  margin-top:750px;
 }
 .post-title-template a {
   text-decoration: none;
@@ -256,6 +256,13 @@ input#searchsubmit {
 
 .cnn-text-widget {
   max-width: 600px;
+  padding:20px 0 30px 0;
+}
+
+/* **** UF PAGE ***** */
+
+.uf-text-widget {
+  max-width: 560px;
   padding:20px 0 30px 0;
 }
 
