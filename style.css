@@ -343,10 +343,13 @@ footer {
 }
 
 
-@media (min-width:700px) {
+@media (max-width:560px) {
   img.attachment-thumbnail.size-thumbnail.wp-post-image {
-      max-width: 200px;
+      max-width: 150px;
       height: auto;
   }
-
+  img.attachment-medium.size-medium.wp-post-image {
+    max-width: 150px;
+    height: auto;
+  }
 }
