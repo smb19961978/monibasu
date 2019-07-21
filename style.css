@@ -122,6 +122,10 @@ ul#menu-header-menu a:hover {
 h1.page-title-home {
   padding-left: 20px;
 }
+h1.page-title-home a {
+  text-decoration: none;
+  color:black;
+}
 /*
 .row.about-us-block {
   display: inline-block;
@@ -446,6 +450,15 @@ footer {
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 200px;
     height: auto;
+  }
+
+
+}
+
+@media (max-width:800px) {
+  .chaplain-text-top, .chaplain-text-bottom {
+    column-count: 1;
+    padding: 20px 10px;
   }
 }
 

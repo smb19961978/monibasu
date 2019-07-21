@@ -1,15 +1,15 @@
 <?php /*Template Name: Writing Page Template*/ ?>
 <?php get_header(); ?>
 
-<?php 
+<?php
     if(has_post_thumbnail()){ ?>
         <div class="hero-image">
             <?php the_post_thumbnail(); ?>
-        </div> 
-     <?php } ?> 
+        </div>
+     <?php } ?>
 
 
-<div class="container templates featured-image-container">
+<div class="container templates">
 
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
