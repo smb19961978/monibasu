@@ -79,6 +79,11 @@ img.image.wp-image-74.attachment-full.size-full {
 .logo-image-widget {
   padding: 10px;
 }
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu {
+  text-align: right;
+}
+
 ul#menu-header-menu li {
   display: inline;
 }
@@ -198,7 +203,7 @@ h4.post-title a:hover {
 .post-title-template a:hover {
   color: #222222;
   box-shadow: inset 0 -0.6em 0 0 rgba(134, 23, 29,.8);
-  transition: 3s;
+  transition: 1s;
 }
 
 h3.post-title-template{
@@ -252,7 +257,16 @@ label.screen-reader-text {
 }
 .widget-sidebar a {
   text-decoration: none;
+  text-decoration: none;
+  color: #222222;
+  opacity: .9;
 }
+
+.widget-sidebar a:hover {
+  transition: 3s;
+  color: ##86171D;
+}
+
 
 /* **** Search Button ***** */
 input#searchsubmit {
@@ -287,9 +301,13 @@ input#searchsubmit {
 
 button.purchase-book-page {
   background-color: #86171D;
-  color:white;
-  padding: 0px 3px;
+  border: 1px solid;
+  opacity: .9;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 1px;
 }
+
 p.chaplain-caption {
   font-size: 19px;
   font-style: italic;
@@ -364,7 +382,7 @@ footer {
   font-family: 'Anton', sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width:1000px) {
