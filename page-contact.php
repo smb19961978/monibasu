@@ -10,7 +10,7 @@
 
 <div class="container templates featured-image-container">
   
-  <h1 class="page-title contact-heading"><?php the_title(); ?></a></h1>
+  <h1 class="page-title contact-heading">CONTACT<br>MONI</h1>
 
      <div class="row contact-us-section">
 
