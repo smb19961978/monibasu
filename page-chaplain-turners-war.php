@@ -41,7 +41,7 @@
   </div>
 
 
-<div class="container templates">
+<div class="container chaplain">
   <div class="row">
     <div class="tweleve columns book-text">
       <?php dynamic_sidebar('chaplain-text-bottom'); ?>

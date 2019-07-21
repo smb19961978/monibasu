@@ -313,18 +313,21 @@ p.chaplain-caption {
   display: flex;
   justify-content: center;
   padding: 60px 0;
-}
-.twelve.columns.book-image {
-  background-color: #F1F0F0;
-  display: flex;
-  justify-content: center;
-  padding: 60px 0;
-}*/
+} */
+
 .row.book-image {
 background-color: #ebe7e5;
 display: flex;
 justify-content: center;
 padding: 60px 0;
+}
+.twelve.columns.book-image {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+.container.chaplain {
+  max-width: 1000px;
 }
 
 /* **** Footer ***** */
