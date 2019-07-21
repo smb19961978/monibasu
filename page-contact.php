@@ -12,6 +12,7 @@
      <div class="row contact-us-section">
 
        <div class="nine columns about">
+         <h2><?php the_title(); ?></h2>
          <?php dynamic_sidebar('about-us'); ?>
        </div>
 
@@ -20,7 +21,6 @@
          if(have_posts()){
            while(have_posts()){
              the_post();?>
-             <h2><?php the_title(); ?></h2>
              <?php the_content();
            }//end while
          }//ends if
