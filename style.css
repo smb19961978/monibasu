@@ -84,6 +84,16 @@ img.image.wp-image-74.attachment-full.size-full {
   text-align: right;
 }
 
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
+  background-color: #86171D;
+  opacity: 9;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link:hover {
+  background-color: #86171D;
+  opacity: 9;
+}
+
 ul#menu-header-menu li {
   display: inline;
 }
