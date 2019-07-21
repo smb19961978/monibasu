@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 <div class="container templates">
+    <div class="row">
+        <div class="nine columns">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -13,7 +15,12 @@
         <?php    }//ends the while loop
         }//ends if statement
     
-?>    
+?>    </div>
+        
+        <div class="three columns uf">
+        <?php get_sidebar(); ?>
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
