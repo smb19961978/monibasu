@@ -115,6 +115,28 @@ register_sidebar( array(
     'after_title'   =>  '</h3>'
   ));
 
+  //UF Image Widget
+  register_sidebar( array(
+    'name'          =>  ('UF Image'),
+    'id'            =>  'uf-image',
+    'description'   =>  'UF Image widget area',
+    'before_widget' =>  '<div class="uf-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+  //UF Text Widget
+  register_sidebar( array(
+    'name'          =>  ('UF Text'),
+    'id'            =>  'uf-text',
+    'description'   =>  'UF Image widget area',
+    'before_widget' =>  '<div class="uf-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
 //CHAPLAIN page
   //Chaplain Image Widget
   register_sidebar( array(
@@ -147,7 +169,7 @@ register_sidebar( array(
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-  
+
   //Chaplain Text Bottom Widget
   register_sidebar( array(
     'name'          =>  ('Chaplain text bottom'),

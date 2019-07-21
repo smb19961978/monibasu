@@ -1,21 +1,24 @@
 <?php /*Template Name: Writing Page Template*/ ?>
 <?php get_header(); ?>
 
-<?php 
+<?php
     if(has_post_thumbnail()){ ?>
         <div class="hero-image">
             <?php the_post_thumbnail(); ?>
-        </div> 
-     <?php } ?> 
+        </div>
+     <?php } ?>
 
 
 <div class="container templates">
 
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+    <div class="row uf">
 
-  <div class="row">
+      <div class="nine columns single-content-uf">
 
-    <div class="nine columns single-content">
+        <?php dynamic_sidebar('uf-image'); ?>
+        <?php dynamic_sidebar('uf-text'); ?>
+
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
@@ -36,7 +39,7 @@
 
 
 
-    <div class="three columns template">
+    <div class="three columns uf">
       <?php get_sidebar(); ?>
     </div>
 
