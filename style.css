@@ -379,7 +379,7 @@ footer {
 
 @media (max-width:560px) {
   img.attachment-medium.size-medium.wp-post-image {
-    max-width: 150px;
+    max-width: 300px;
     height: auto;
   }
   .row.about-us-block {
