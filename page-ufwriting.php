@@ -1,4 +1,4 @@
-<?php /*Template Name: Writing Page Template*/ ?>
+<?php /*Template Name: UF Page Template*/ ?>
 <?php get_header(); ?>
 
 <?php
