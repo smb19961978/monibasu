@@ -18,7 +18,7 @@
          <?php dynamic_sidebar('contact-moni'); ?>
        </div>
 
-      <div class="three columns">
+      <div class="three columns contact-form">
        <?php
          if(have_posts()){
            while(have_posts()){
