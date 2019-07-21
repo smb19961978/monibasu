@@ -349,20 +349,36 @@ footer {
 
 
 @media (max-width:560px) {
-  img.attachment-thumbnail.size-thumbnail.wp-post-image {
-      max-width: 150px;
-      height: auto;
-  }
+
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 150px;
     height: auto;
   }
+
+  .row.about-us-block {
+    max-width: 300px;
+
+  }
 }
+
+@media (max-width:700px) {
+
+  img.attachment-medium.size-medium.wp-post-image {
+    max-width: 150px;
+    height: auto;
+  }
+  .row.about-us-block {
+    max-width: 400px;
+
+  }
+
+}
+
 
 
 @media (max-width:1000px) {
   .row.about-us-block {
-    max-width: 800px;
+    max-width: 600px;
 
   }
 
