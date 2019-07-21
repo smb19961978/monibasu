@@ -9,7 +9,7 @@
         </div>
      <?php } ?>
 
-<div class="container templates">
+<div class="container templates featured-image-container">
 
 
   <div class="row">
