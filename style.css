@@ -381,6 +381,12 @@ padding: 60px 0;
 
 /**** CONTACT PAGE *****/
 
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+  background-color: EBE7E5;
+  height: 40px;
+  border-radius: 1px;
+}
+
 .contact-moni p {
   width: 65%;
 }
