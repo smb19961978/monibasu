@@ -14,7 +14,7 @@
 
      <div class="row contact-moni-section">
 
-       <div class="nine columns">
+       <div class="seven columns">
          <?php dynamic_sidebar('contact-moni'); ?>
        </div>
 
