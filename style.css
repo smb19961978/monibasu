@@ -383,8 +383,13 @@ padding: 60px 0;
   border-radius: 1px;
 }
 
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+  border-color: #86171D;
+  color: #fff;
+}
+
 .red {
-  color: #86171D;
+  color: #86171D !important;
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
