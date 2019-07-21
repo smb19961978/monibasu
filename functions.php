@@ -50,6 +50,18 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
+  //Hero Image Widget
+  register_sidebar( array(
+    'name'          =>  ('Hero Image Center'),
+    'id'            =>  'hero-image-center',
+    'description'   =>  'Centered Hero Image on Page',
+    'before_widget' =>  '<div class="hero-image-center-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
   //About Us Text Block Widget
   register_sidebar( array(
     'name'          =>  ('About Us Text Block'),

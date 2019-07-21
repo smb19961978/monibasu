@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php
     if(has_post_thumbnail()){ ?>
-        <div class="hero-image">
+        <div class="hero-image-center">
             <?php the_post_thumbnail(); ?>
         </div>
      <?php } ?>
@@ -15,7 +15,7 @@
           <h2 class="post-title"><?php the_title(); ?></h2>
           <p class="post-date"><?php echo "Published " . get_the_date(); ?></p>
           <p class="post-author"><?php echo "Written by: " . get_the_author(); ?></p>
-      
+
           <p class="post-content-text">  <?php the_content(); ?> </p>
 
 

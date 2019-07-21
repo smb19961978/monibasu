@@ -68,6 +68,21 @@ img.image.wp-image-74.attachment-full.size-full {
     object-fit: cover;
     max-height: 800px;
     object-position: left;
+    border-bottom: 9px solid #86171D;
+}
+
+.hero-image-center{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.hero-image-center img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 800px;
+    object-position: center;
+    border-bottom: 9px solid #86171D;
 }
 /* Menu position behind image */
 .row.menu {
