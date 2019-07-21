@@ -2,22 +2,22 @@
 
 <?php get_header(); ?>
 
-<?php 
+<?php
     if(has_post_thumbnail()){ ?>
         <div class="hero-image">
             <?php the_post_thumbnail(); ?>
-        </div> 
-     <?php } ?> 
+        </div>
+     <?php } ?>
 
 <div class="container featured-image-container">
 <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <!-- About Text Section -->
   <div class="row about-us-block">
 
-    <div class="nine columns">
+    <div class="nine columns about">
       <?php dynamic_sidebar('about-us'); ?>
     </div>
-    <div class="three columns">
+    <div class="three columns about">
       <?php dynamic_sidebar('about-us-image'); ?>
     </div>
   </div>

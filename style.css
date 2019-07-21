@@ -367,6 +367,14 @@ footer {
   .row.about-us-block {
     display: grid;
   }
+  .nine.columns.about {
+    width: 100%;
+  }
+  .three.columns.about {
+    width: 100%;
+  }
+
+
 }
 
 @media (max-width:560px) {
