@@ -102,11 +102,16 @@ ul#menu-header-menu a:hover {
 h1.page-title {
   padding-top: 55px;
 }
+/*
 .row.about-us-block {
   display: inline-block;
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+}*/
+
+.row.about-us-block {
+  padding: 20px;
 }
 .about-us-image img {
   border: 1px solid #86171D;
@@ -350,6 +355,19 @@ footer {
   }
   img.attachment-medium.size-medium.wp-post-image {
     max-width: 150px;
+    height: auto;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .row.about-us-block {
+    max-width: 800px;
+
+  }
+
+  img.attachment-medium.size-medium.wp-post-image {
+    max-width: 200px;
     height: auto;
   }
 }
