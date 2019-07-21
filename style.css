@@ -487,6 +487,10 @@ footer {
   .container.templates {
     padding: 0 40px 55px 40px;
   }
+
+  .sidebar {
+    padding-left:25px;
+  }
 }
 
 @media (max-width:700px) {
