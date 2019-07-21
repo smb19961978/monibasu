@@ -86,11 +86,12 @@ img.image.wp-image-74.attachment-full.size-full {
 
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
   background-color: #86171D;
-  opacity: 9;
+  opacity: .8;
 }
 
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link:hover {
   opacity: .8;
+  background-color: transparent;
 }
 
 ul#menu-header-menu li {
@@ -108,6 +109,7 @@ ul#menu-header-menu a{
   padding: 2px 0;
   color:white;
 }
+
 ul#menu-header-menu a:hover {
   background-color: #86171D;
 }
@@ -188,6 +190,7 @@ h4.post-title a {
   color: #222222;
   font-size: 20px;
 }
+
 h4.post-title a:hover {
   background-color: #86171D;
 }
@@ -277,7 +280,7 @@ label.screen-reader-text {
 
 .widget-sidebar a:hover {
   transition: 3s;
-  color: ##86171D;
+  color: ##86171D !important;
 }
 
 
