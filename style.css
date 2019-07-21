@@ -412,6 +412,11 @@ padding: 60px 0;
   border-radius: 1px;
 }
 
+/*** pushes the footer down on archive page ***/
+.archive{
+    height: 100vh;
+}
+
 /* **** Footer ***** */
 footer {
   background-image: url("footer.jpg");
