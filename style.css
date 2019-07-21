@@ -137,10 +137,10 @@ button.purchase {
   color:white;
   padding: 0px 3px;
 }
-.row.posts-home {
+/* .row.posts-home {
   display: flex;
   justify-content: center;
-}
+}*/
 
 .container.featured-image-container{
     margin-top: 750px;
@@ -340,4 +340,13 @@ footer {
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+
+@media (min-width:700px) {
+  img.attachment-thumbnail.size-thumbnail.wp-post-image {
+      max-width: 200px;
+      height: auto;
+  }
+
 }
