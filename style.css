@@ -126,6 +126,11 @@ ul#menu-header-menu a:hover {
 h1.page-title-home {
   padding-left: 20px;
 }
+
+h1.page-title-home a {
+  text-decoration: none;
+  color: #222222;
+}
 /*
 .row.about-us-block {
   display: inline-block;
@@ -380,6 +385,23 @@ padding: 60px 0;
 }
 
 /**** CONTACT PAGE *****/
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 40px;
+    padding: 20px 20px;
+    background-color: #F7F5F5;
+    border: 1px solid #222222;
+    border-radius: 1px;
+    margin-bottom: 0;
+}
+
+label {
+  font-weight: 200;
+}
+
+textarea {
+  height: 200px;
+}
 
 .contact-moni p {
   width: 65%;
