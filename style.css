@@ -380,7 +380,6 @@ padding: 60px 0;
 
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
     height: 40px;
-    width: 400px;
     padding: 20px 20px;
     background-color: #F7F5F5;
     border: 1px solid #222222;
@@ -407,6 +406,7 @@ textarea {
   color: white;
   padding: 0px 10px;
   border-radius: 1px;
+  margin-top: 10px;
 }
 
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
