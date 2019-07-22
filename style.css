@@ -58,6 +58,19 @@ img.image.wp-image-74.attachment-full.size-full {
   border-bottom: 9px solid #86171D;
 }*/
 
+.hero-image-home{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.hero-image-home img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 800px;
+    object-position: left;
+    border-bottom: 5px solid #86171D;
+}
 .hero-image{
     position: absolute;
     top: 0;
@@ -68,10 +81,9 @@ img.image.wp-image-74.attachment-full.size-full {
     width: 100%;
     object-fit: cover;
     max-height: 800px;
-    object-position: left;
+    object-position: center;
     border-bottom: 5px solid #86171D;
 }
-
 /* Menu position behind image */
 .row.menu {
     position: absolute;

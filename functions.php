@@ -52,10 +52,10 @@ function blank_widgets_init(){
 
   //Hero Image Widget
   register_sidebar( array(
-    'name'          =>  ('Hero Image Center'),
-    'id'            =>  'hero-image-center',
-    'description'   =>  'Centered Hero Image on Page',
-    'before_widget' =>  '<div class="hero-image-center-widget">',
+    'name'          =>  ('Hero Image Home'),
+    'id'            =>  'hero-image-home',
+    'description'   =>  'Home Hero Image',
+    'before_widget' =>  '<div class="hero-image-home-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'

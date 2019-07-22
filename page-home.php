@@ -4,7 +4,7 @@
 
 <?php
     if(has_post_thumbnail()){ ?>
-        <div class="hero-image">
+        <div class="hero-image-home">
             <?php the_post_thumbnail(); ?>
         </div>
      <?php } ?>
