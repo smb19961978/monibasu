@@ -245,7 +245,6 @@ p.post-date-template {
 
 .post-img-text-template {
   display: flex;
-  max-width: 600px;
   padding-bottom: 50px;
 }
 .nine.columns.single-content img {
@@ -518,7 +517,10 @@ footer {
 }
 
 @media (max-width:560px) {
-
+  img.attachment-medium.size-medium.wp-post-image {
+    max-width: 300px;
+    height: auto;
+  }
   .row.about-us-block {
   display: grid;
   }
