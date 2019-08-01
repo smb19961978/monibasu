@@ -251,7 +251,9 @@ p.post-date-template {
   width: 300px;
   height: auto;
 }
-
+.post-img-text-template p {
+  padding: 0 25px;
+}
 .three.columns.template {
   padding-top:30px;
 }
