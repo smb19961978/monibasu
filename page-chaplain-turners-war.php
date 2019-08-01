@@ -14,7 +14,7 @@
 
   <div class="row">
     <div class="six columns">
-      <h1>CHAPLAIN<br>TURNER'S <br>WAR </h1>
+      <h1>CHAPLAIN TURNER'S WAR </h1>
        <button class="purchase-book-page">Purchase</button>
       <p class="chaplain-caption">This is a caption</p>
     </div>
