@@ -242,16 +242,19 @@ h3.post-title-template{
 p.post-date-template {
   color: #86171D;
 }
-.nine.columns.single-content img {
-}
 
+.post-img-text-template {
+    display: flex;
+    width: 600px;
+    padding-bottom: 50px;
+}
+.nine.columns.single-content img {
+  padding-right:20px;
+}
 .three.columns.template {
   padding-top:30px;
 }
-/* Excerpt Width */
-.nine.columns.single-content p {
-  width: 350px;
-}
+
 
 /* **** Post Pages ***** */
 
@@ -316,6 +319,9 @@ input#searchsubmit {
 .cnn-text-widget {
   max-width: 600px;
   padding:20px 0 30px 0;
+}
+.cnn-post-columns {
+  padding-top: 33px;
 }
 
 /* **** UF PAGE ***** */
