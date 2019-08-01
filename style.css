@@ -500,6 +500,9 @@ footer {
 	    padding: 20px 10px;
 	    padding: 20px 35px;
 	  }
+    .post-img-text-template {
+      display: block;
+    }
 	}
 
 @media (max-width:700px) {
@@ -529,7 +532,5 @@ footer {
   .row.about-us-block {
   display: grid;
   }
-  .post-img-text-template {
-    display: block;
-  }
+
 }
