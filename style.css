@@ -502,6 +502,9 @@ footer {
     .post-img-text-template {
       display: block;
     }
+    .post-img-text-template p {
+      padding: 10px 0;
+    }
 	}
 
 @media (max-width:700px) {
