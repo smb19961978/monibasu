@@ -26,11 +26,12 @@
           foreach ( $lastposts as $post ) :
             setup_postdata( $post ); ?>
 
-
-          <?php the_post_thumbnail('medium'); ?>
-          <h3 class="post-title-template"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-          <p class="post-date-template"><?php echo "Published " . get_the_date(); ?></p>
-          <p class="excerpt"><?php the_excerpt(); ?></p>
+          <div class="cnn-post-columns">
+            <?php the_post_thumbnail('medium'); ?>
+            <h3 class="post-title-template"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <p class="post-date-template"><?php echo "Published " . get_the_date(); ?></p>
+            <p class="excerpt"><?php the_excerpt(); ?></p>
+          </div>
 
         <?php endforeach;?>
         <?php wp_reset_postdata(); ?>
