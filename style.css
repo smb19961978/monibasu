@@ -244,9 +244,9 @@ p.post-date-template {
 }
 
 .post-img-text-template {
-    display: flex;
-    width: 600px;
-    padding-bottom: 50px;
+  display: flex;
+  max-width: 600px;
+  padding-bottom: 50px;
 }
 .nine.columns.single-content img {
   padding-right:20px;
@@ -528,5 +528,8 @@ footer {
   }
   .row.about-us-block {
   display: grid;
+  }
+  .post-img-text-template {
+    display: block;
   }
 }

@@ -29,7 +29,7 @@
         <div class="post-img-text-template">
           <?php the_post_thumbnail('medium'); ?>
 
-        <p><?php the_excerpt(); ?></p>
+          <?php the_excerpt(); ?>
         </div>
         <?php endforeach;?>
         <?php wp_reset_postdata(); ?>
