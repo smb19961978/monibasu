@@ -247,9 +247,11 @@ p.post-date-template {
   display: flex;
   padding-bottom: 50px;
 }
-.nine.columns.single-content img {
-  padding-right:20px;
+.post-img-text-template img {
+  width: 300px;
+  height: auto;
 }
+
 .three.columns.template {
   padding-top:30px;
 }
@@ -517,10 +519,7 @@ footer {
 }
 
 @media (max-width:560px) {
-  img.attachment-medium.size-medium.wp-post-image {
-    max-width: 300px;
-    height: auto;
-  }
+
   .row.about-us-block {
   display: grid;
   }
