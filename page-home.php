@@ -24,7 +24,7 @@
 </div>
   <div class="row book-home">
 
-      <h1>CHAPLAIN<br>TURNER'S <br>WAR  <button class="purchase">Purchase</button></h1>
+      <h1>CHAPLAIN<br>TURNER'S <br>WAR  <a href="https://www.amazon.com/Chaplain-Turners-War-Moni-Basu-ebook/dp/B007XULHX4/ref=sr_1_1?keywords=chaplain+turners+war&qid=1564783407&s=digital-text&sr=1-1" target="_blank" rel="noopener"><button class="purchase">Purchase</button></a></h1>
 
 
       <?php dynamic_sidebar('book-image-home');?>
