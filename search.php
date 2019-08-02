@@ -5,7 +5,13 @@
         <div class="hero-image">
             <?php the_post_thumbnail(); ?>
         </div>
-     <?php } ?>
+     <?php
+   }else{?>
+       <div class="hero-image-search">
+           <?php dynamic_sidebar('hero-image'); ?>
+       </div><?php
+     }
+     ?>
 
 <div class="container templates featured-image-container">
   <div class="row">
@@ -24,9 +30,7 @@
           <a class="read-more" href="<?php the_permalink() ?>">Read More ...</a><?php
         }//ends while loop
       }else{?>
-        <div class="hero-image-search">
-            <?php dynamic_sidebar('hero-image'); ?>
-        </div>
+
         <h2 class="post-title">Nothing was Found</h1>
         <p>Sorry, but nothing matched your search criteria. Please try again with a different search term. </p><?php get_search_form();
       }
