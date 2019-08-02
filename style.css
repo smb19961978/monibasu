@@ -152,7 +152,7 @@ h1.page-title-home a {
   padding: 20px;
 }
 
-.about-us h3 {
+.about-us h3, .contact-moni h3 {
   display: none;
 }
 
@@ -514,9 +514,9 @@ footer {
   padding: 55px 0 10px;
 }
 
-.icons img {
+ul.cnss-social-icon li a img {
   width: 50px;
-  padding:15px;
+  height: 50px;
 }
 
 .copyright p {
