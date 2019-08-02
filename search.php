@@ -24,7 +24,7 @@
           <a class="read-more" href="<?php the_permalink() ?>">Read More ...</a><?php
         }//ends while loop
       }else{?>
-        <div class="hero-image">
+        <div class="hero-image-search">
             <?php dynamic_sidebar('hero-image'); ?>
         </div>
         <h2 class="post-title">Nothing was Found</h1>
