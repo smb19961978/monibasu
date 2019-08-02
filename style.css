@@ -198,7 +198,8 @@ button.purchase {
 .one-third.column.posts {
     text-align: center;
     width: 31%;
-    margin: 11px;
+    margin: 14px;
+    margin-top: 100px
 }
 
 .row.posts-home img {
@@ -532,6 +533,10 @@ footer {
 /*** Media Queries ***/
 
 @media (max-width: 1024px) {
+
+  .one-third.column.posts {
+    margin: 11px;
+  }
 
   .about-us-image img {
     width: 80%;
