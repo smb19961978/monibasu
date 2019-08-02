@@ -1,5 +1,5 @@
-<?php /* Template Name: Search Page */
-get_header();
+/* Template Name: Search Page */
+<?php get_header();
 ?>
 
 <div class="container search">
@@ -9,8 +9,14 @@ get_header();
         <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
         <?php while(have_posts()){
           the_post(); ?>
-          <h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <a href="<?php the_permalink() ?>">Read More ...</a><?php
+          <h3 class="post-title-template"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+
+          <?php the_post_thumbnail('medium'); ?>
+
+          <?php  the_excerpt(); ?>
+
+          <a class="read-more">href="<?php the_permalink() ?>">Read More ...</a><?php
         }//ends while loop
       }else{?>
         <h2 class="post-title">Nothing was Found</h1>

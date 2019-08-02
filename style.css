@@ -447,6 +447,21 @@ textarea {
   border-radius: 1px;
 }
 
+
+/* *****  Search Page **** */
+/* 'Read More' link */
+.read-more {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 /* **** Footer ***** */
 footer {
   background-image: url("footer.jpg");
