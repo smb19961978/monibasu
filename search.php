@@ -1,6 +1,11 @@
 <?php /* Template Name: Search Page */ ?>
-<?php get_header();
-?>
+<?php get_header(); ?>
+<?php
+    if(has_post_thumbnail()){ ?>
+        <div class="hero-image">
+            <?php the_post_thumbnail(); ?>
+        </div>
+     <?php } ?>
 
 <div class="container search">
   <div class="row">
