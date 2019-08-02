@@ -13,7 +13,7 @@
      }
      ?>
 
-<div class="container templates">
+<div class="container templates featured-image-container">
   <div class="row">
     <div class="nine columns">
       <?php if(have_posts()){?>
