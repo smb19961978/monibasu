@@ -7,7 +7,7 @@
         </div>
      <?php } ?>
 
-<div class="container search">
+<div class="templates featured-image-container">
   <div class="row">
     <div class="nine columns">
       <?php if(have_posts()){?>
