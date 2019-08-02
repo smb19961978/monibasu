@@ -24,6 +24,9 @@
           <a class="read-more" href="<?php the_permalink() ?>">Read More ...</a><?php
         }//ends while loop
       }else{?>
+        <div class="hero-image">
+            <?php dynamic_sidebar(); ?>
+        </div>
         <h2 class="post-title">Nothing was Found</h1>
         <p>Sorry, but nothing matched your search criteria. Please try again with a different search term. </p><?php get_search_form();
       }
