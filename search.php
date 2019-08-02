@@ -25,7 +25,7 @@
         }//ends while loop
       }else{?>
         <div class="hero-image">
-            <?php dynamic_sidebar(); ?>
+            <?php dynamic_sidebar('hero-image'); ?>
         </div>
         <h2 class="post-title">Nothing was Found</h1>
         <p>Sorry, but nothing matched your search criteria. Please try again with a different search term. </p><?php get_search_form();
