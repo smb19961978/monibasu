@@ -22,18 +22,22 @@
       <?php  }//end while loop
       } //end if statement
 
+      comments_template();
+
     ?>
 
     </div>
+
     <div class="four columns">
       <?php get_sidebar(); ?>
     </div>
+
   </div>
-  <div>
-    <?php comments_template(); ?>
+
+  <div class="row">
+ <?php comments_template(); ?>
   </div>
+
 </div>
-
-
 
 <?php get_footer(); ?>
