@@ -23,7 +23,7 @@
       <?php  }//end while loop
       } //end if statement
 
-    comments_template();
+    // comments_template();
 
     ?>
 
