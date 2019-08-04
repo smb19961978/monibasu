@@ -668,12 +668,19 @@ ul.cnss-social-icon li a img {
 @media (max-width:560px) {
 
   .row.about-us-block {
-    display: grid;
+    display: inline-block;
   }
 
   .row.posts-home {
     display: inline;
     justify-content: center;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .container {
+    width: 85% !important;
   }
 }
