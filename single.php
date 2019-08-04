@@ -26,13 +26,15 @@
 
     ?>
 
+      <?php comments_template(); ?>
     </div>
     <div class="four columns">
       <?php get_sidebar(); ?>
     </div>
+
+      <?php comments_template(); ?>
   </div>
 
-  <?php comments_template(); ?>
 </div>
 
 <?php get_footer(); ?>
