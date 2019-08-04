@@ -18,7 +18,7 @@
 
           <p class="post-content-text">  <?php the_content(); ?> </p>
 
-        <?php  comments_template(); ?>
+        
 
       <?php  }//end while loop
       } //end if statement
