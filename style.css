@@ -239,7 +239,7 @@ h4.post-title a:hover {
 /* *** Writing Template Page * **/
 
 html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-fb, html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-tw, html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-mail {
-  background: #86171D;
+  background: #86171D !important;
 }
 
 .page-title a {
