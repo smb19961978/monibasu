@@ -34,10 +34,10 @@
 
   </div>
 
-  <div class="row">
- <?php comments_template(); ?>
-  </div>
+</div>
 
+<div class="row">
+<?php comments_template(); ?>
 </div>
 
 <?php get_footer(); ?>
