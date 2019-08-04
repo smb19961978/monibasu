@@ -23,7 +23,7 @@
       } //end if statement
 
       // comments_template();
-      
+
     ?>
 
     </div>
@@ -31,6 +31,8 @@
       <?php get_sidebar(); ?>
     </div>
   </div>
+
+  <?php comments_template(); ?>
 </div>
 
 <?php get_footer(); ?>
