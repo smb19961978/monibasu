@@ -27,6 +27,11 @@ body {
 
 a {
   text-decoration: none !important;
+  color: #86171D;
+}
+
+a:hover {
+  opacity: .8;
 }
 
 h1, h2 {
@@ -233,6 +238,10 @@ h4.post-title a:hover {
 
 /* *** Writing Template Page * **/
 
+html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-fb, html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-tw, html .gs-buttons.gs-flat-colors:not(.gs-outline-colors):not(.gs-icon-highlight) a[class*="gs-"].gs-mail {
+  background: #86171D;
+}
+
 .page-title a {
   text-decoration: none;
   color: #222222;
@@ -307,6 +316,13 @@ p.post-date, p.post-author {
 
 .sidebar {
   font-size: 15px;
+  padding-left: 70px;
+  width: 100%;
+}
+
+h3.widget-title {
+  color: #86171D;
+  text-transform: uppercase;
 }
 
 /* **** Hide 'Pages' ***** */
@@ -359,6 +375,14 @@ input#searchsubmit {
 
 .cnn-post-columns {
   padding-top: 33px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #86171D;
+}
+
+.cnn-image-widget img, .cnn-post-columns img {
+  border: 1px solid #86171D;
 }
 
 /* **** UF PAGE ***** */
