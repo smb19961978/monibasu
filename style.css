@@ -605,7 +605,7 @@ ul.cnss-social-icon li a img {
 @media (max-width:1000px) {
 
   .row.about-us-block {
-    max-width: 600px;
+    max-width: 500px;
   }
 
   .row.contact-moni-section {
@@ -617,7 +617,6 @@ ul.cnss-social-icon li a img {
     height: 150px;
     object-fit: cover;
   }
-
 }
 
 @media (max-width:800px) {
@@ -636,11 +635,15 @@ ul.cnss-social-icon li a img {
       padding: 10px 0;
     }
 
-      .row.posts-home {
-        display: inline-block;
-        justify-content: center;
-        margin-left: 0;
-      }
+    .row.about-us-block {
+      max-width: 600px;
+    }
+
+    .row.posts-home {
+      display: flex;
+      justify-content: center;
+      margin-left: 0;
+    }
 	}
 
 @media (max-width:700px) {
