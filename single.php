@@ -21,10 +21,8 @@
 
       <?php  }//end while loop
       } //end if statement
-
-      comments_template();
-
     ?>
+    
     </div>
     <div class="four columns">
       <?php get_sidebar(); ?>
