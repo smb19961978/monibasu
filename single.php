@@ -22,6 +22,8 @@
       <?php  }//end while loop
       } //end if statement
 
+      // comments_template();
+      
     ?>
 
     </div>
