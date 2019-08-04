@@ -617,7 +617,7 @@ ul.cnss-social-icon li a img {
       padding: 10px 0;
     }
 
-      .row-posts.home {
+      .row.posts-home {
         display: inline-block;
         justify-content: center;
       }
