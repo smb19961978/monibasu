@@ -25,17 +25,10 @@
     ?>
 
     </div>
-
     <div class="four columns">
       <?php get_sidebar(); ?>
     </div>
-
   </div>
-
-</div>
-
-<div class="row">
-<?php comments_template(); ?>
 </div>
 
 <?php get_footer(); ?>
