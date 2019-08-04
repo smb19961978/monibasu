@@ -31,7 +31,8 @@ a {
 }
 
 a:hover {
-  opacity: .8;
+  color: #86171D !important;
+  opacity: .8 !important;
 }
 
 h1, h2 {
