@@ -18,21 +18,19 @@
 
           <p class="post-content-text">  <?php the_content(); ?> </p>
 
+        <?php  comments_template(); ?>
 
       <?php  }//end while loop
       } //end if statement
 
-      // comments_template();
+    comments_template();
 
     ?>
 
-      <?php comments_template(); ?>
     </div>
     <div class="four columns">
       <?php get_sidebar(); ?>
     </div>
-
-      <?php comments_template(); ?>
   </div>
 
 </div>
