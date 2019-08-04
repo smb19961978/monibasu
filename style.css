@@ -272,10 +272,10 @@ html .gs-buttons.gs-left {
 }
 
 .post-title-template a {
-  text-decoration: none;
   color: #86171D;
   font-size: 26px;
   font-weight: 400;
+  opacity: 1 !important;
 }
 
 /* title hover effect */
