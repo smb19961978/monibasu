@@ -597,9 +597,9 @@ ul.cnss-social-icon li a img {
     width: 70% !important;
   }
 
- .about-us-image img {
-    width: 70% !important;
-  }
+  .row.about-us-block {
+    padding: 20px;
+    width: 90% !important;
 }
 
 @media (max-width:1000px) {
