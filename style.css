@@ -212,8 +212,11 @@ button.purchase {
     margin-top: 750px;
     max-width: 1000px;
 }
+
 .row.posts-home {
   margin-left: 22px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .one-third.column.posts {
     text-align: center;
@@ -298,13 +301,16 @@ p.post-date-template {
   display: flex;
   padding-bottom: 50px;
 }
+
 .post-img-text-template img {
   width: 300px;
   height: auto;
 }
+
 .post-img-text-template p {
   padding: 0 25px;
 }
+
 .three.columns.template {
   padding-top:30px;
 }
@@ -578,10 +584,6 @@ ul.cnss-social-icon li a img {
 
 @media (max-width: 1024px) {
 
-  /*.one-third.column.posts {
-    margin: 11px;
-  }*/
-
   .about-us-image img {
     width: 80%;
   }
@@ -601,6 +603,7 @@ ul.cnss-social-icon li a img {
   .row.contact-moni-section {
     max-width: 700px;
   }
+
   .row.posts-home img {
     width:200px;
     height: 150px;
@@ -610,14 +613,17 @@ ul.cnss-social-icon li a img {
 }
 
 @media (max-width:800px) {
+
 	  .chaplain-text-top, .chaplain-text-bottom {
 	    column-count: 1;
 	    padding: 20px 10px;
 	    padding: 20px 35px;
 	  }
+
     .post-img-text-template {
       display: block;
     }
+
     .post-img-text-template p {
       padding: 10px 0;
     }
@@ -630,6 +636,7 @@ ul.cnss-social-icon li a img {
 	}
 
 @media (max-width:700px) {
+
   .about-us p {
     padding-right: 0px;
   }
@@ -637,9 +644,11 @@ ul.cnss-social-icon li a img {
   .sidebar {
     padding-left: 25px;
   }
+
   .row.about-us-block {
     display: grid;
   }
+
   .nine.columns.about {
     width: 100%;
   }
