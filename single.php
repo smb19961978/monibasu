@@ -24,13 +24,13 @@
 
     ?>
 
-    <?php comments_template(); ?>
-
     </div>
     <div class="four columns">
       <?php get_sidebar(); ?>
     </div>
   </div>
 </div>
+
+<?php comments_template(); ?>
 
 <?php get_footer(); ?>
