@@ -19,6 +19,7 @@
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
+          $args = array('category_name'  => 'Writing');
           $lastposts = get_posts( $args );
           foreach ( $lastposts as $post ) :
             setup_postdata( $post ); ?>
@@ -35,8 +36,6 @@
         <?php wp_reset_postdata(); ?>
 
     </div>
-
-
 
     <div class="three columns template">
       <?php get_sidebar(); ?>
