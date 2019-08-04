@@ -22,7 +22,7 @@
         <?php
           global $post;
           $args = array( 'posts_per_page' => 3 );
-          $args = array('category_name'    => 'CNN');
+          $args = array('category_name'  => 'CNN');
           $lastposts = get_posts( $args );
           foreach ( $lastposts as $post ) :
             setup_postdata( $post ); ?>
