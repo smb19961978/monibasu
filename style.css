@@ -441,6 +441,10 @@ p.chaplain-caption {
 
 }
 
+.red {
+  color: #86171D !important;
+}
+
 .six.columns.image-area {
   display: inline-flex;
   justify-content: center;
