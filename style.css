@@ -48,7 +48,7 @@ img {
   border: 1px solid #86171D;
 }
 
-header img, footer img {
+header img, footer img, .chaplain-book-image img, .book-image-home img {
   border: none !important;
 }
 
