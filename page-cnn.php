@@ -32,7 +32,6 @@
             <h3 class="post-title-template"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="post-date-template"><?php echo "Published " . get_the_date(); ?></p>
             <?php the_excerpt(); ?>
-                <a class="read-more" href="<?php the_permalink() ?>">Read More ...</a>
           </div>
 
         <?php endforeach;?>
