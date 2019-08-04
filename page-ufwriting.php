@@ -21,8 +21,6 @@
 
     </div>
 
-
-
     <div class="three columns uf">
       <?php get_sidebar(); ?>
     </div>

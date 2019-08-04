@@ -18,7 +18,6 @@
     <div class="nine columns single-content">
         <?php
           global $post;
-          $args = array('posts_per_page' => 3);
           $args = array('category_name'  => 'Writing');
           $lastposts = get_posts( $args );
           foreach ( $lastposts as $post ) :
