@@ -211,9 +211,12 @@ button.purchase {
     margin-top: 750px;
     max-width: 1000px;
 }
-
+.row.post-home {
+  margin-left: 22px;
+}
 .one-third.column.posts {
     text-align: center;
+    padding-top: 50px;
   /*  margin: 14px;
     margin-top: 100px */
 }
@@ -621,6 +624,7 @@ ul.cnss-social-icon li a img {
       .row.posts-home {
         display: inline-block;
         justify-content: center;
+        margin-left: 0;
       }
 	}
 
