@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #86171D !important;
+  color: #86171D;
   opacity: .8 !important;
 }
 
@@ -130,11 +130,11 @@ ul#menu-header-menu a{
   font-size: 18px;
   margin: 0 10px;
   padding: 2px 0;
-  color:white;
+  color: white;
 }
 
 ul#menu-header-menu a:hover {
-  background-color: #86171D;
+  color: #ffffff !important;
 }
 
 .menu-header-menu-container {
