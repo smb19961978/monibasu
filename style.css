@@ -625,6 +625,10 @@ ul.cnss-social-icon li a img {
 }
 
 @media (max-width:800px) {
+
+    h1.page-title {
+        padding: 0 30px;
+    }
     .container.templates {
       margin-top:650px;
     }
@@ -633,6 +637,21 @@ ul.cnss-social-icon li a img {
 	    padding: 20px 10px;
 	    padding: 20px 35px;
 	  }
+    .row.about-us-block {
+      max-width: 800px;
+      width: 100%;
+    }
+    .nine.columns.about {
+      width: 100%;
+      padding: 20px;
+    }
+    .about-us p {
+      padding-right: 0;
+    }
+    .three.columns.about {
+    width: 100%;
+    padding: 30px;
+  }
 
     .post-img-text-template {
       display: block;
@@ -702,6 +721,25 @@ ul.cnss-social-icon li a img {
       width: 100%;
       padding: 30px;
   }
+  .cnn-image-widget img {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+  .cnn-post-columns img {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .nine.columns.single-content-cnn {
+    width: 100%;
+    padding: 30px;
+  }
+  .three.columns.cnn {
+      width: 100%;
+      padding: 30px;
+  }
+
 
 
 }
