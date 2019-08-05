@@ -615,12 +615,12 @@ ul.cnss-social-icon li a img {
 
 /*  .row.about-us-block {
     max-width: 700px;
-  }
+  } */
   .row.about-us-block {
     padding: 20px;
-    width: 80% !important;
+    width: 81% !important;
 }
-*/
+
   .row.contact-moni-section {
     max-width: 700px;
   }
@@ -653,6 +653,11 @@ ul.cnss-social-icon li a img {
       max-width: 800px;
       width: 100%;
     }*/
+
+    .wp-caption.alignnone {
+      max-width: 400px !important;
+      width: 100%;
+    }
     .nine.columns.about {
       width: 100%;
       padding: 20px;
