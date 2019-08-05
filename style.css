@@ -636,6 +636,7 @@ ul.cnss-social-icon li a img {
       display: block;
       max-width: 500px;
       width: 100%;
+      padding-bottom: 20px;
     }
 
     .post-img-text-template p {
@@ -644,6 +645,7 @@ ul.cnss-social-icon li a img {
     /* Link to posts writing page */
     .nine.columns.single-content {
       width: 100%;
+      padding: 30px;
     }
     /*writing page image responsive */
     .post-img-text-template img {
@@ -653,10 +655,11 @@ ul.cnss-social-icon li a img {
     }
     /*side bar writing page */
     .three.columns.template {
-    width: 100%;
-    margin-left: 0;
-    padding-top: 20px;
-  }
+      width: 100%;
+      margin-left: 0;
+      padding: 0 30px;
+
+    }
 
     .row.about-us-block {
       max-width: 600px;
