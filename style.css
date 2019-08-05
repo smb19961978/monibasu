@@ -52,6 +52,10 @@ header img, footer img, .chaplain-book-image img, .book-image-home img {
   border: none !important;
 }
 
+h2.post-title {
+  letter-spacing: 1.5px;
+}
+
 /* *** Header **** */
 
 header {
