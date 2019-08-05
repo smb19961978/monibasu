@@ -178,7 +178,7 @@ h1.page-title-home a {
   border: 1px solid #86171D;
 }
 .wp-caption.alignnone {
-  width: 270px;
+  width: 270px !important;
 }
 
 .about-us p {
