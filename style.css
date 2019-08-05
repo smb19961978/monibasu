@@ -733,6 +733,7 @@ ul.cnss-social-icon li a img {
   .cnn-post-columns img {
     width: 100%;
     max-width: 600px;
+    height: auto;
   }
 
   .nine.columns.single-content-cnn {
