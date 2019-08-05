@@ -625,7 +625,9 @@ ul.cnss-social-icon li a img {
 }
 
 @media (max-width:800px) {
-
+    .container.templates {
+      margin-top:650px;
+    }
 	  .chaplain-text-top, .chaplain-text-bottom {
 	    column-count: 1;
 	    padding: 20px 10px;
@@ -680,7 +682,7 @@ ul.cnss-social-icon li a img {
       width: 100%;
       padding: 30px;
     }
-    wp-block-image img {
+    .wp-block-image img {
       width: 100%;
       max-width: 600px;
     }
@@ -688,6 +690,17 @@ ul.cnss-social-icon li a img {
     textarea#comment {
       width: 100%;
       height: 100px;
+  }
+    .uf-text-widget {
+      padding: 20px 0 0;
+    }
+    .nine.columns.single-content-uf {
+      width: 100%;
+      padding: 30px;
+    }
+    .three.columns.uf {
+      width: 100%;
+      padding: 30px;
   }
 
 
