@@ -18,12 +18,12 @@
 
           <p class="post-content-text">  <?php the_content(); ?> </p>
 
-        
+
 
       <?php  }//end while loop
       } //end if statement
 
-    // comments_template();
+    comments_template();
 
     ?>
 
