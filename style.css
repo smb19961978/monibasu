@@ -787,14 +787,6 @@ ul.cnss-social-icon li a img {
   .nine.columns.about {
     width: 100%;
   }
-}
-
-@media (max-width:560px) {
-
-  .row.about-us-block {
-    display: inline-block;
-  }
-
   .row.posts-home {
     display: inline;
     justify-content: center;
@@ -806,6 +798,15 @@ ul.cnss-social-icon li a img {
     height: auto;
     object-fit: cover
   }
+}
+
+@media (max-width:560px) {
+
+  .row.about-us-block {
+    display: inline-block;
+  }
+
+
 }
 
 @media (max-width: 400px) {
