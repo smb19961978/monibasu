@@ -335,12 +335,15 @@ p.post-date, p.post-author {
 .eight.columns.single-content {
   padding-right: 30px;
 }
+/* Side bar post page */
+.four.columns {
+    padding-left: 30px;
+}
 
 /* *** Side Bar ****  */
 
 .sidebar {
   font-size: 15px;
-  padding-left: 70px;
   width: 100%;
 }
 
@@ -653,10 +656,10 @@ ul.cnss-social-icon li a img {
     padding-right: 0px;
   }
 
-  .sidebar {
+/*  .sidebar {
     padding-left: 25px;
   }
-
+*/
   .row.about-us-block {
     display: grid;
   }
