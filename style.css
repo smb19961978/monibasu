@@ -653,9 +653,17 @@ ul.cnss-social-icon li a img {
       max-width: 800px;
       width: 100%;
     }*/
+
+    .row.about-us-block {
+      width: 100% !important;
+    }
     /*about us image and caption */
     .wp-caption.alignnone {
       width: 400px !important;
+    }
+
+    .about-us-image img {
+      max-width: 320px;
     }
     .nine.columns.about {
       width: 100%;
@@ -698,10 +706,10 @@ ul.cnss-social-icon li a img {
 
     }
 
-    .row.about-us-block {
+    /*  .row.about-us-block {
       max-width: 600px;
     }
-
+    */
     .row.posts-home {
       display: flex;
       justify-content: center;
