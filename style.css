@@ -314,7 +314,8 @@ p.post-date-template {
 }
 
 .three.columns.template {
-  padding-top:30px;
+  padding-top: 30px;
+  margin-left: 30px;
 }
 
 /* **** Post Pages ***** */
@@ -648,7 +649,13 @@ ul.cnss-social-icon li a img {
       justify-content: center;
       margin-left: 0;
     }
-	}
+    /*side bar writing page */
+    .three.columns.template {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+}
 
 @media (max-width:700px) {
 
