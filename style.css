@@ -659,7 +659,7 @@ ul.cnss-social-icon li a img {
     }
     /*about us image and caption */
     .wp-caption.alignnone {
-      width: 400px !important;
+      width: 300px !important;
     }
 
     .three.columns.about {
@@ -780,10 +780,6 @@ ul.cnss-social-icon li a img {
     padding-right: 0px;
   }
 
-/*  .sidebar {
-    padding-left: 25px;
-  }
-*/
   .row.about-us-block {
     display: grid;
   }
@@ -804,11 +800,19 @@ ul.cnss-social-icon li a img {
     justify-content: center;
     margin-left: 0;
   }
+  .row.posts-home img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: cover
+  }
 }
 
 @media (max-width: 400px) {
 
   .container {
-    width: 85% !important;
+    width: 95% !important;
+    padding: 0;
   }
+
 }
