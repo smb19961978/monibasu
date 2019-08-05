@@ -629,6 +629,9 @@ ul.cnss-social-icon li a img {
 }
 
 @media (max-width:800px) {
+  h1.page-title-home {
+    padding: 0 30px;
+  }
 
     h1.page-title {
         padding: 0 30px;
