@@ -174,7 +174,11 @@ h1.page-title-home a {
 }
 
 .about-us-image img {
+  width: 270px;
   border: 1px solid #86171D;
+}
+.wp-caption.alignnone {
+  width: 270px;
 }
 
 .about-us p {
