@@ -634,11 +634,29 @@ ul.cnss-social-icon li a img {
 
     .post-img-text-template {
       display: block;
+      max-width: 500px;
+      width: 100%;
     }
 
     .post-img-text-template p {
       padding: 10px 0;
     }
+    /* Link to posts writing page */
+    .nine.columns.single-content {
+      width: 100%;
+    }
+    /*writing page image responsive */
+    .post-img-text-template img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+    }
+    /*side bar writing page */
+    .three.columns.template {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 20px;
+  }
 
     .row.about-us-block {
       max-width: 600px;
@@ -649,16 +667,7 @@ ul.cnss-social-icon li a img {
       justify-content: center;
       margin-left: 0;
     }
-    /* Link to posts writing page */
-    .nine.columns.single-content {
-      width: 100%;
-    }
-    /*side bar writing page */
-    .three.columns.template {
-    width: 100%;
-    margin-left: 0;
-    padding-top: 20px;
-  }
+
 }
 
 @media (max-width:700px) {
