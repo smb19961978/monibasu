@@ -27,7 +27,7 @@
           <p class="post-date-template"><?php echo "Published " . get_the_date(); ?></p>
 
         <div class="post-img-text-template">
-          <?php the_post_thumbnail('medium'); ?>
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?>
 
           <?php the_excerpt(); ?>
         </div>
