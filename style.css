@@ -792,12 +792,7 @@ ul.cnss-social-icon li a img {
     justify-content: center;
     margin-left: 0;
   }
-  .row.posts-home img {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
-    object-fit: cover
-  }
+
 }
 
 @media (max-width:560px) {
