@@ -1,3 +1,5 @@
+
+
 <?php
 
 foreach ($comments as $comment):
@@ -9,7 +11,7 @@ foreach ($comments as $comment):
 
   echo '<div class="comment-date">' . get_comment_date() . '</div>';
 
-  echo '<div class="comment-text">' . get_comment_text() '</div>';
+  echo '<div class="comment-text">' . get_comment_text() . '</div>';
 
 endforeach;
 
