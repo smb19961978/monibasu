@@ -787,11 +787,7 @@ ul.cnss-social-icon li a img {
   .nine.columns.about {
     width: 100%;
   }
-  .row.posts-home {
-    display: inline;
-    justify-content: center;
-    margin-left: 0;
-  }
+
 
 }
 
