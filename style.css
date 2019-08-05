@@ -653,10 +653,9 @@ ul.cnss-social-icon li a img {
       max-width: 800px;
       width: 100%;
     }*/
-
+    /*about us image and caption */
     .wp-caption.alignnone {
-      max-width: 400px !important;
-      width: 100%;
+      width: 400px !important;
     }
     .nine.columns.about {
       width: 100%;
