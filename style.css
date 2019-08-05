@@ -649,6 +649,10 @@ ul.cnss-social-icon li a img {
       justify-content: center;
       margin-left: 0;
     }
+    /* Link to posts writing page */
+    .nine.columns.single-content {
+      width: 100%;
+    }
     /*side bar writing page */
     .three.columns.template {
     width: 100%;
