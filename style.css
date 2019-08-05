@@ -655,15 +655,20 @@ ul.cnss-social-icon li a img {
     }*/
 
     .row.about-us-block {
-      width: 100% !important;
+      width: 96% !important;
     }
     /*about us image and caption */
     .wp-caption.alignnone {
       width: 400px !important;
     }
 
+    .three.columns.about {
+        display: flex;
+        justify-content: center;
+    }
     .about-us-image img {
-      max-width: 320px;
+      max-width: 440px;
+      width:100%;
     }
     .nine.columns.about {
       width: 100%;
