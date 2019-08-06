@@ -10,7 +10,7 @@
 
 <div class="container templates featured-image-container">
 
-    <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+    <h1 class="page-title cnn"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
   <div class="row cnn">
 
