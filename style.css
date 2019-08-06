@@ -612,6 +612,7 @@ ul.cnss-social-icon li a img {
   .row.about-us-block {
     padding: 20px;
     width: 90% !important;
+  }
 }
 
 @media (max-width:1000px) {
@@ -619,10 +620,11 @@ ul.cnss-social-icon li a img {
 /*  .row.about-us-block {
     max-width: 700px;
   } */
+
   .row.about-us-block {
     padding: 20px;
     width: 81% !important;
-}
+  }
 
   .row.contact-moni-section {
     max-width: 700px;
@@ -636,21 +638,25 @@ ul.cnss-social-icon li a img {
 }
 
 @media (max-width:800px) {
-  h1.page-title-home {
-    padding: 0 30px;
+
+    h1.page-title-home {
+      padding: 0 30px;
   }
 
     h1.page-title {
         padding: 0 30px;
     }
+
     .container.templates {
       margin-top:650px;
     }
+
 	  .chaplain-text-top, .chaplain-text-bottom {
 	    column-count: 1;
 	    padding: 20px 10px;
 	    padding: 20px 35px;
 	  }
+
     /*
     .row.about-us-block {
       max-width: 800px;
@@ -660,6 +666,7 @@ ul.cnss-social-icon li a img {
     .row.about-us-block {
       width: 96% !important;
     }
+
     /*about us image and caption */
     .wp-caption.alignnone {
       width: 300px !important;
@@ -669,21 +676,25 @@ ul.cnss-social-icon li a img {
         display: flex;
         justify-content: center;
     }
+
     .about-us-image img {
       max-width: 440px;
       width:100%;
     }
+
     .nine.columns.about {
       width: 100%;
       padding: 20px;
     }
+
     .about-us p {
       padding-right: 0;
     }
+
     .three.columns.about {
-    width: 100%;
-    padding: 30px;
-  }
+      width: 100%;
+      padding: 30px;
+    }
 
     .post-img-text-template {
       display: block;
@@ -695,17 +706,20 @@ ul.cnss-social-icon li a img {
     .post-img-text-template p {
       padding: 10px 0;
     }
+
     /* Link to posts writing page */
     .nine.columns.single-content {
       width: 100%;
       padding: 30px;
     }
+
     /*writing page image responsive */
     .post-img-text-template img {
       max-width: 500px;
       width: 100%;
       height: auto;
     }
+
     /*side bar writing page */
     .three.columns.template {
       width: 100%;
@@ -718,6 +732,7 @@ ul.cnss-social-icon li a img {
       max-width: 600px;
     }
     */
+
     .row.posts-home {
       display: flex;
       justify-content: center;
@@ -729,10 +744,12 @@ ul.cnss-social-icon li a img {
       width: 100%;
       padding: 30px;
     }
+
     .four.columns {
       width: 100%;
       padding: 30px;
     }
+
     .wp-block-image img {
       width: 100%;
       max-width: 600px;
@@ -741,40 +758,43 @@ ul.cnss-social-icon li a img {
     textarea#comment {
       width: 100%;
       height: 100px;
-  }
+    }
+
     .uf-text-widget {
       padding: 20px 0 0;
     }
+
     .nine.columns.single-content-uf {
       width: 100%;
       padding: 30px;
     }
+
     .three.columns.uf {
       width: 100%;
       padding: 30px;
-  }
-  .cnn-image-widget img {
-    max-width: 700px;
-    width: 100%;
-    height: auto;
-  }
-  .cnn-post-columns img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-  }
+    }
 
-  .nine.columns.single-content-cnn {
-    width: 100%;
-    padding: 30px;
-  }
-  .three.columns.cnn {
+    .cnn-image-widget img {
+      max-width: 700px;
+      width: 100%;
+      height: auto;
+    }
+
+    .cnn-post-columns img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+
+    .nine.columns.single-content-cnn {
+      width: 100%;
+      padding: 30px;
+    }
+
+    .three.columns.cnn {
       width: 100%;
       padding: 30px;
   }
-
-
-
 }
 
 @media (max-width:700px) {
@@ -790,20 +810,22 @@ ul.cnss-social-icon li a img {
   .nine.columns.about {
     width: 100%;
   }
+
   .one-third.column.posts {
     width: 100%;
   }
+
   .row.posts-home {
     display: inline;
     justify-content: center;
     margin-left: 0;
   }
+
   .row.posts-home img {
     width:300px;
     height:200px;
     object-fit: cover;
   }
-
 }
 
 @media (max-width:560px) {
@@ -811,8 +833,6 @@ ul.cnss-social-icon li a img {
   .row.about-us-block {
     display: inline-block;
   }
-
-
 }
 
 @media (max-width: 425px) {
@@ -828,5 +848,4 @@ ul.cnss-social-icon li a img {
     padding-bottom: 0 !important;
     padding-top: 25px !important;
   }
-
 }
