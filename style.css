@@ -815,7 +815,7 @@ ul.cnss-social-icon li a img {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 
   .container {
     width: 95% !important;
