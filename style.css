@@ -802,6 +802,10 @@ ul.cnss-social-icon li a img {
       width: 100%;
       padding: 30px;
   }
+
+  .chaplain-text-bottom .textwidget {
+    padding: 35px;
+  }
 }
 
 @media (max-width:700px) {
