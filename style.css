@@ -685,7 +685,7 @@ ul.cnss-social-icon li a img {
     }*/
 
     .row.about-us-block {
-      width: 96% !important;
+      width: auto !important;
     }
 
     /*about us image and caption */
