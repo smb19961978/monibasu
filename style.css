@@ -822,4 +822,8 @@ ul.cnss-social-icon li a img {
     padding: 0;
   }
 
+  h1.page-title.contact-heading {
+    padding: 0 !important;
+  }
+
 }
