@@ -398,6 +398,12 @@ input#searchsubmit {
   font-size: 10px;
 }
 
+/* ******* COMMENT AREA *** */
+textarea#comment {
+    height: 100px;
+    width: 100%;
+}
+
 /* **** CNN PAGE ***** */
 
 .row.cnn {
