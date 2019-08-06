@@ -613,6 +613,11 @@ ul.cnss-social-icon li a img {
     padding: 20px;
     width: 90% !important;
   }
+
+  .tweleve.columns.book-text {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 @media (max-width:1000px) {
