@@ -639,16 +639,16 @@ ul.cnss-social-icon li a img {
 
 @media (max-width:800px) {
 
-  h1.page-title.contact-heading {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 25px !important;
-  }
+    h1.page-title.contact-heading {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 25px !important;
+    }
 
     h1.page-title-home {
       padding: 0 30px;
-  }
+    }
 
     h1.page-title {
         padding: 0 30px;
@@ -803,8 +803,8 @@ ul.cnss-social-icon li a img {
       padding: 30px;
   }
 
-  .chaplain-text-bottom .textwidget {
-    padding: 35px;
+  .chaplain-text-bottom {
+      padding: 10px 30px 100px 30px;
   }
 }
 
