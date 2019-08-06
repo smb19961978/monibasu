@@ -87,6 +87,9 @@ header .row {
   object-fit: cover;
   max-height: 800px;
   border-bottom: 5px solid #86171D;
+  border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
 }
 
 .hero-image-home img, .hero-image-widget img {
