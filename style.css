@@ -617,6 +617,14 @@ ul.cnss-social-icon li a img {
   .tweleve.columns.book-text, .six.columns {
     padding: 55px 30px 40px 30px; {
   }
+
+  .cnn-text-widget {
+    width: 65%;
+  }
+
+  .cnn-image-widget {
+    width: 60%;
+  }
 }
 
 @media (max-width:1000px) {
