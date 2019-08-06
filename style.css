@@ -619,11 +619,11 @@ ul.cnss-social-icon li a img {
   }
 
   .cnn-text-widget {
-    width: 65%;
+    width: 65% !important;
   }
 
   .cnn-image-widget {
-    width: 60%;
+    width: 60% !important;
   }
 }
 
