@@ -614,9 +614,8 @@ ul.cnss-social-icon li a img {
     width: 90% !important;
   }
 
-  .tweleve.columns.book-text {
-    padding-right: 30px;
-    padding-left: 30px;
+  .tweleve.columns.book-text, .six.columns {
+    padding: 55px 30px 40px 30px; {
   }
 }
 
