@@ -639,6 +639,13 @@ ul.cnss-social-icon li a img {
 
 @media (max-width:800px) {
 
+  h1.page-title.contact-heading {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 25px !important;
+  }
+
     h1.page-title-home {
       padding: 0 30px;
   }
@@ -840,12 +847,5 @@ ul.cnss-social-icon li a img {
   .container {
     width: 95% !important;
     padding: 0;
-  }
-
-  h1.page-title.contact-heading {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 25px !important;
   }
 }
