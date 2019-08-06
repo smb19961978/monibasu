@@ -875,6 +875,10 @@ ul.cnss-social-icon li a img {
 
 @media (max-width: 425px) {
 
+  #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item a {
+    font-size: 12px !important;
+  }
+
   .container {
     width: 95% !important;
     padding: 0;
@@ -882,5 +886,12 @@ ul.cnss-social-icon li a img {
 
   input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
       width: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item a {
+    font-size: 11px !important;
   }
 }
