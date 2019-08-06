@@ -661,6 +661,7 @@ ul.cnss-social-icon li a img {
   h1.page-title.cnn {
     padding: 0 30px;
   }
+
   .cnn-image-widget img {
     max-width: 700px;
     width: 100%;
@@ -713,15 +714,9 @@ ul.cnss-social-icon li a img {
 	    column-count: 1;
 	  }
 
-    /*
-    .row.about-us-block {
-      max-width: 800px;
-      width: 100%;
-    }*/
-
-    .row.about-us-block {
+    /*.row.about-us-block {
       width: auto !important;
-    }
+    } */
 
     /*about us image and caption */
     .wp-caption.alignnone {
