@@ -847,6 +847,14 @@ ul.cnss-social-icon li a img {
     height:200px;
     object-fit: cover;
   }
+
+  .cnn-text-widget {
+    max-width: 300px !important;
+  }
+
+  .cnn-image-widget {
+    max-width: 300px !important;
+  }
 }
 
 @media (max-width:560px) {
