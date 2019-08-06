@@ -480,10 +480,10 @@ p.chaplain-caption {
 }
 
 .row.book-image {
-background-color: #ebe7e5;
-display: flex;
-justify-content: center;
-padding: 60px 0;
+  background-color: #ebe7e5;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
 }
 
 .twelve.columns.book-image {
@@ -655,13 +655,15 @@ ul.cnss-social-icon li a img {
     }
 
     .container.templates {
-      margin-top:650px;
+      margin-top: 650px;
+    }
+
+    .six.columns, .tweleve.columns.book-text {
+      padding: 55px 30px 40px 30px !important;
     }
 
 	  .chaplain-text-top, .chaplain-text-bottom {
 	    column-count: 1;
-	    padding: 20px 10px;
-	    padding: 20px 35px;
 	  }
 
     /*
@@ -801,10 +803,6 @@ ul.cnss-social-icon li a img {
     .three.columns.cnn {
       width: 100%;
       padding: 30px;
-  }
-
-  .chaplain-text-bottom {
-      padding: 10px 30px 100px 30px;
   }
 }
 
