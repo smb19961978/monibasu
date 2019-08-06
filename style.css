@@ -846,6 +846,10 @@ ul.cnss-social-icon li a img {
   .row.about-us-block {
     display: inline-block;
   }
+
+  h1.page-title {
+    padding-top: 25px !important;
+  }
 }
 
 @media (max-width: 425px) {
