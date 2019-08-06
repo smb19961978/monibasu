@@ -28,7 +28,7 @@
 
         <div class="post-img-text-template">
           <div class="image-permalink">
-          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?> </div>
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?> </a></div>
 
           <?php the_excerpt(); ?>
         </div>
